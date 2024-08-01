@@ -6,6 +6,10 @@ import Button from "@/components/ui/Button";
 import ServiceList from "@/components/services/ServiceList";
 import HeaderSection from "@/components/ui/HeaderSection";
 import CustomerItem from "@/components/customer/CustomerItem";
+import WomenVr from "@/assets/WomenVr.png";
+import InformationBlock from "@/components/ui/InformationBlock";
+import TeamVr from "@/assets/TeamVr.png";
+import EmployeeVr from "@/assets/EmployeeVr.png";
 
 export default function Home() {
   return (
@@ -56,8 +60,45 @@ export default function Home() {
       </section>
 
       {/* SECTION 4 */}
-      <section className="flex flex-col gap-10 px-8">
-        <HeaderSection text="Wir über-zeugen weil..." />
+      <section className="flex flex-col gap-10">
+        <HeaderSection text={`Wir über-zeugen weil...`} className={"px-8"} />
+
+        <div className="flex flex-col gap-10">
+          <InformationBlock title="High Velocity" />
+          <InformationBlock title="High Velocity" />
+
+          <Image src={WomenVr} alt="Women with Vr glases" />
+        </div>
+      </section>
+
+      {/* SECTION 5 */}
+      <section className="flex flex-col gap-10">
+        <HeaderSection text={`Unser Prozess 1`} className={"px-8"} />
+
+        <div className="flex flex-col gap-10">
+          <InformationBlock title="High Velocity" />
+          <Image src={TeamVr} alt="Team with Vr glases" />
+        </div>
+      </section>
+
+      {/* SECTION 6 */}
+      <section className="flex flex-col gap-10">
+        <HeaderSection text={`Unser Prozess 2`} className={"px-8"} />
+
+        <div className="flex flex-col gap-10">
+          <InformationBlock title="High Velocity" />
+          <Image src={EmployeeVr} alt="Employee with Vr glases" />
+        </div>
+      </section>
+
+      {/* SECTION 7 */}
+      <section className="flex flex-col gap-10">
+        <HeaderSection text={`Referenze-projekte`} className={"px-8"} />
+
+        <div className="flex flex-col gap-10">
+          <InformationBlock title="High Velocity" />
+          <Image src={EmployeeVr} alt="Employee with Vr glases" />
+        </div>
       </section>
     </main>
   );
