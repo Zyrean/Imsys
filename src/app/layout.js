@@ -1,5 +1,6 @@
 import MainHeader from "@/components/header/MainHeader";
 import "./globals.css";
+import Footer from "@/components/footer/Footer";
 
 export const metadata = {
   title: "Imsys",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <MainHeader />
         {children}
+        <Footer />
       </body>
     </html>
   );
