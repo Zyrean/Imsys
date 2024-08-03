@@ -3,6 +3,7 @@ import Image from "next/image";
 import PictureTwo from "@/assets/Picture2.png";
 import PictureThree from "@/assets/Picture3.png";
 import HeaderSection from "@/components/ui/HeaderSection";
+import Qualification from "@/components/aboutUs/Qualification";
 
 function AboutUsPage() {
   return (
@@ -20,7 +21,14 @@ function AboutUsPage() {
 
       {/* SECTION 2 */}
       <section className="relative flex flex-col gap-10">
-        <HeaderSection text="Was macht den Unterschied" />
+        <HeaderSection text="Was macht den Unterschied" className={"px-8"} />
+
+        <div className="grid grid-cols-2 gap-4">
+          <Qualification />
+          <Qualification />
+          <Qualification />
+          <Qualification />
+        </div>
       </section>
     </main>
   );
