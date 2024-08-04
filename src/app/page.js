@@ -12,10 +12,11 @@ import EmployeeVr from "@/assets/EmployeeVr.png";
 import CustomerPost from "@/components/customer/CustomerPost";
 import ButtonNextBack from "@/components/ui/ButtonNextBack";
 import NewsLetterForm from "@/components/customer/NewsLetterForm";
+import KundenLogo from "@/assets/KundenLogo.png";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="flex flex-col gap-20 bg-red-100 pb-14">
+    <main className="flex flex-col gap-20 pb-14">
       {/* SECTION 1 */}
       <section className="relative flex flex-col gap-10">
         <div className="flex items-center">
@@ -52,9 +53,9 @@ export default function Home() {
         <HeaderSection text="Unsere Kunden" />
 
         <div className="flex justify-between px-4">
-          <CustomerItem customer="Appbuster" />
-          <CustomerItem customer="Appbuster" />
-          <CustomerItem customer="Appbuster" />
+          <CustomerItem customer="Appbuster" image={KundenLogo} />
+          <CustomerItem customer="Appbuster" image={KundenLogo} />
+          <CustomerItem customer="Appbuster" image={KundenLogo} />
         </div>
       </section>
 

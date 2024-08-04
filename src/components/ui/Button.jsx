@@ -6,7 +6,9 @@ import ArrowNorthEast from "@/assets/ArrowNorthEast.png";
 function Button({ children, className, style, icon = "false" }) {
   if (style === "default") {
     return (
-      <button className="w-44 rounded-br-3xl bg-blue py-5 text-white">
+      <button
+        className={"w-44 rounded-br-3xl bg-blue py-5 text-white " + className}
+      >
         {children}
       </button>
     );
@@ -14,8 +16,13 @@ function Button({ children, className, style, icon = "false" }) {
 
   if (style === "learn more") {
     return (
-      <button className="flex w-44 items-center gap-4 rounded-br-3xl bg-orange px-8 py-5 text-white">
-        <p>Learn More</p>
+      <button
+        className={
+          "flex w-44 items-center gap-4 rounded-br-3xl bg-orange px-8 py-5 text-white " +
+          className
+        }
+      >
+        <p className="text-white">{children}</p>
         <Image src={ArrowSouthEast} alt="arrow" height={12} />
       </button>
     );

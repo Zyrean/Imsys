@@ -1,10 +1,9 @@
 import Image from "next/image";
-import KundenLogo from "@/assets/KundenLogo.png";
 
-function CustomerItem({ customer }) {
+function CustomerItem({ customer, image }) {
   return (
     <div className="flex flex-col items-center gap-4">
-      <Image src={KundenLogo} alt="Kunden logo" />
+      <Image src={image} alt="Kunden logo" height={60} />
       <p>{customer}</p>
     </div>
   );
