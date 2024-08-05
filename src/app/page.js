@@ -44,7 +44,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 2 */}
-      <section className="flex flex-col gap-10 px-8 lg:flex-row">
+      <section className="flex flex-col gap-10 px-8 lg:flex-row lg:justify-between lg:gap-0">
         <HeaderSection text="Unsere Services" />
 
         <ServiceList />
@@ -58,6 +58,16 @@ export default function HomePage() {
           <CustomerItem customer="Appbuster" image={KundenLogo} />
           <CustomerItem customer="Appbuster" image={KundenLogo} />
           <CustomerItem customer="Appbuster" image={KundenLogo} />
+          <CustomerItem
+            customer="test1"
+            image={KundenLogo}
+            className="sm:hidden"
+          />
+          <CustomerItem
+            customer="test2"
+            image={KundenLogo}
+            className="sm:hidden"
+          />
         </div>
       </section>
 
