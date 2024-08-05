@@ -19,22 +19,24 @@ export default function HomePage() {
     <main className="flex flex-col gap-20 pb-14">
       {/* SECTION 1 */}
       <section className="relative flex flex-col gap-10">
-        <div className="flex items-center">
-          <Image src={Picture1} alt="Picture of a men with VR" />
+        <div className="flex items-center lg:items-start">
+          <Image
+            src={Picture1}
+            alt="Picture of a men with VR"
+            className="w-full"
+          />
 
-          <h1 className="absolute px-8 text-4xl text-white drop-shadow-2xl">
+          <h1 className="absolute px-8 text-4xl text-white drop-shadow-2xl sm:top-12 sm:w-80 lg:top-14 lg:w-[470px] lg:px-12 lg:text-5xl">
             We work as an extension of your team
           </h1>
         </div>
 
-        <div className="flex flex-col gap-10 px-8">
+        <div className="flex flex-col gap-10 px-8 lg:absolute lg:bottom-20 lg:w-[540px] lg:px-12 lg:text-white">
           <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed.
+            et ea rebum.
           </p>
 
           <Button style="learn more">Learn More</Button>
@@ -42,7 +44,7 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 2 */}
-      <section className="flex flex-col gap-10 px-8">
+      <section className="flex flex-col gap-10 px-8 lg:flex-row">
         <HeaderSection text="Unsere Services" />
 
         <ServiceList />

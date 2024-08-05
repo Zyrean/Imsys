@@ -7,7 +7,7 @@ import BurgerMenu from "@/assets/menu-svgrepo-com.svg";
 
 function MainHeader() {
   return (
-    <header className="flex justify-between px-8 py-4 ">
+    <header className="flex justify-between px-8 py-4">
       <Image src={ImsysLogo} alt="Imsys Logo" />
       <Button>
         <Image src={BurgerMenu} alt="Burger Menu" width={30} />

@@ -2,12 +2,36 @@ import Image from "next/image";
 
 import ArrowSouthEast from "@/assets/ArrowSouthEast.png";
 import ArrowNorthEast from "@/assets/ArrowNorthEast.png";
+import ArrowEast from "@/assets/ArrowEast2.png";
 
 function Button({ children, className, style, icon = "false" }) {
   if (style === "default") {
     return (
       <button
         className={"w-44 rounded-br-3xl bg-blue py-5 text-white " + className}
+      >
+        {children}
+      </button>
+    );
+  }
+
+  if (style === "default small") {
+    return (
+      <button
+        className={"w-44 rounded-br-3xl bg-blue py-3 text-white " + className}
+      >
+        {children}
+      </button>
+    );
+  }
+
+  if (style === "default border") {
+    return (
+      <button
+        className={
+          "w-44 rounded-br-3xl border-[1px] border-blue py-2 text-blue " +
+          className
+        }
       >
         {children}
       </button>
@@ -24,6 +48,15 @@ function Button({ children, className, style, icon = "false" }) {
       >
         <p className="text-white">{children}</p>
         <Image src={ArrowSouthEast} alt="arrow" height={12} />
+      </button>
+    );
+  }
+
+  if (style === "read artical") {
+    return (
+      <button className={"mt-6 flex items-center gap-4 px-2 py-2 " + className}>
+        <p className="text-blue">{children}</p>
+        <Image src={ArrowEast} alt="arrow" height={12} className="" />
       </button>
     );
   }
