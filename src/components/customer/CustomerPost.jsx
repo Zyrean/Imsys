@@ -3,9 +3,11 @@ import Image from "next/image";
 import Avatar from "@/assets/Avatar.png";
 import QuoteIcon from "@/assets/QuoteIcon.png";
 
-function CustomerPost() {
+function CustomerPost({ display = "flex" }) {
   return (
-    <div className="mx-8 flex flex-col gap-4 border border-gray-400 px-4 py-6">
+    <div
+      className={`${display} mx-8 flex-col gap-4 border border-gray-400 px-4 py-6 lg:mx-0`}
+    >
       <Image src={QuoteIcon} alt="Quote icon" />
       <h3 className="font-semibold">
         They imporved our Google rankings, increased traffic to our website

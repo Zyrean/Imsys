@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 function NavBar() {
   return (
     <nav>
-      <ul className="flex gap-16">
+      <ul className="flex gap-4">
         <NavLink to={"/herausforderungen"}>Ihre herausforderungen</NavLink>
         <NavLink to={"/lösungen"}>Unsere Lösungen</NavLink>
         <NavLink to={"/wissen&support"}>Wissen & Support</NavLink>

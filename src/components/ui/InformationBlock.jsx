@@ -17,7 +17,11 @@ function InformationBlock({ title, type }) {
   if (type === "small") {
     return (
       <div className="flex flex-col gap-4">
-        <Image src={TeamMeeting} alt="Picture of a groupe having a meeting" />
+        <Image
+          src={TeamMeeting}
+          alt="Picture of a groupe having a meeting"
+          className="md:w-full"
+        />
 
         <div className="flex flex-col gap-2">
           <h2 className="text-xl">{title}</h2>
@@ -31,7 +35,7 @@ function InformationBlock({ title, type }) {
   }
 
   return (
-    <div className="flex flex-col gap-6 px-8">
+    <div className="flex flex-col gap-4 px-8">
       <h2 className="text-xl">{title}</h2>
       <p className="text-gray-600">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy

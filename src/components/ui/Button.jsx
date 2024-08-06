@@ -25,6 +25,16 @@ function Button({ children, className, style, icon = "false" }) {
     );
   }
 
+  if (style === "default tiny") {
+    return (
+      <button
+        className={"w-36 rounded-br-full bg-blue py-2 text-white " + className}
+      >
+        {children}
+      </button>
+    );
+  }
+
   if (style === "default border") {
     return (
       <button

@@ -16,7 +16,7 @@ import KundenLogo from "@/assets/KundenLogo.png";
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col gap-20 pb-14">
+    <main className="flex flex-col gap-20 pb-14 lg:gap-28">
       {/* SECTION 1 */}
       <section className="relative flex flex-col gap-10">
         <div className="flex items-center lg:items-start">
@@ -51,74 +51,116 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 3 */}
-      <section className="flex flex-col gap-10 px-8">
-        <HeaderSection text="Unsere Kunden" />
+      <section className="flex flex-col gap-10 lg:items-center lg:justify-between">
+        <HeaderSection
+          text="Unsere Kunden"
+          style="desktop"
+          display="lg:hidden"
+        />
+        <h2 className="hidden text-2xl lg:block">Unsere Kunden</h2>
 
-        <div className="flex justify-between px-4">
+        <div className="flex justify-between px-8 lg:w-full">
           <CustomerItem customer="Appbuster" image={KundenLogo} />
           <CustomerItem customer="Appbuster" image={KundenLogo} />
           <CustomerItem customer="Appbuster" image={KundenLogo} />
           <CustomerItem
-            customer="test1"
+            customer="Appbuster"
             image={KundenLogo}
-            className="sm:hidden"
+            className="hidden lg:flex"
           />
           <CustomerItem
-            customer="test2"
+            customer="Appbuster"
             image={KundenLogo}
-            className="sm:hidden"
+            className="hidden sm:flex"
           />
         </div>
       </section>
 
       {/* SECTION 4 */}
-      <section className="flex flex-col gap-10">
-        <HeaderSection text={`Wir über-zeugen weil...`} className={"px-8"} />
+      <section className="flex flex-col gap-10 lg:flex lg:flex-row-reverse lg:justify-between lg:gap-0 lg:px-8 ">
+        <div className="flex flex-col gap-10 lg:w-1/2">
+          <HeaderSection style="desktop" text={`Wir über- zeugen weil...`} />
 
-        <div className="flex flex-col gap-10">
-          <InformationBlock title="High Velocity" />
-          <InformationBlock title="High Velocity" />
-
-          <Image src={WomenVr} alt="Women with Vr glases" />
+          <div className="flex flex-col gap-10">
+            <InformationBlock title="High Velocity" />
+            <InformationBlock title="High Velocity" />
+          </div>
         </div>
+
+        <Image
+          src={WomenVr}
+          alt="Women with Vr glases"
+          className="w-full lg:w-1/2"
+        />
       </section>
 
       {/* SECTION 5 */}
-      <section className="flex flex-col gap-10">
-        <HeaderSection text={`Unser Prozess 1`} className={"px-8"} />
+      <section className="flex flex-col gap-10 lg:flex-row">
+        <div className="flex flex-col gap-10 lg:w-1/2">
+          <HeaderSection
+            text={`Unser Prozess 1`}
+            style="desktop"
+            className={"px-8"}
+          />
 
-        <div className="flex flex-col gap-10">
           <InformationBlock title="High Velocity" />
-          <Image src={TeamVr} alt="Team with Vr glases" />
         </div>
+
+        <Image
+          src={TeamVr}
+          alt="Team with Vr glases"
+          className="w-full lg:w-1/2 lg:pr-8"
+        />
       </section>
 
       {/* SECTION 6 */}
-      <section className="flex flex-col gap-10">
-        <HeaderSection text={`Unser Prozess 2`} className={"px-8"} />
+      <section className="flex flex-col gap-10 lg:flex-row-reverse">
+        <div className="flex flex-col gap-10 lg:w-1/2">
+          <HeaderSection
+            text={`Unser Prozess 2`}
+            style="desktop"
+            className={"px-8"}
+          />
 
-        <div className="flex flex-col gap-10">
           <InformationBlock title="High Velocity" />
-          <Image src={EmployeeVr} alt="Employee with Vr glases" />
         </div>
+
+        <Image
+          src={EmployeeVr}
+          alt="Employee with Vr glases"
+          className="w-full lg:w-1/2 lg:pl-8"
+        />
       </section>
 
       {/* SECTION 7 */}
       <section className="flex flex-col gap-10">
-        <HeaderSection text={`Referenze-projekte`} className={"px-8"} />
+        <HeaderSection
+          style="desktop"
+          text={`Referenze-projekte`}
+          className={"px-8"}
+        />
 
         <div className="flex flex-col gap-6">
           <div className="px-8">
-            <ul className="flex justify-between font-semibold uppercase text-gray-600">
+            <ul className="flex justify-between font-semibold uppercase text-gray-600 lg:hidden">
               <li>all</li>
               <li>vr</li>
               <li>ar</li>
               <li>mr</li>
               <li>web design</li>
             </ul>
+
+            <ul className="hidden justify-between font-semibold uppercase text-gray-600 lg:flex">
+              <li>all</li>
+              <li>mobile design</li>
+              <li>web design</li>
+              <li>branding</li>
+              <li>illustration</li>
+              <li>typography</li>
+            </ul>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 px-8">
+          <div className="grid grid-cols-2 gap-4 px-8 md:gap-8">
             <InformationBlock type="small" title="Real Estat Landing Page" />
             <InformationBlock type="small" title="Real Estat Landing Page" />
             <InformationBlock type="small" title="Real Estat Landing Page" />
@@ -129,23 +171,42 @@ export default function HomePage() {
 
       {/* SECTION 8 */}
       <section className="flex flex-col gap-10">
-        <HeaderSection text={`Was unsere Kunden sagen?`} className={"px-8"} />
+        <HeaderSection
+          text={`Was unsere Kunden sagen?`}
+          className={"px-8"}
+          style="desktop"
+        />
 
-        <CustomerPost />
+        <div className="lg:flex lg:gap-4 lg:px-8">
+          <CustomerPost />
+          <CustomerPost display="hidden lg:flex" />
+          <CustomerPost display="hidden lg:flex" />
+        </div>
 
-        <div className="flex justify-between px-8">
+        <div className="flex justify-between px-8 lg:justify-end lg:gap-4">
           <ButtonNextBack className="rotate-90" />
           <ButtonNextBack className="rotate-[270deg]" />
         </div>
       </section>
 
       {/* SECTION 9 */}
-      <section className="flex flex-col gap-10">
-        <HeaderSection text={`News-letter`} className={"px-8"} />
+      <section className="flex flex-col justify-between gap-10 lg:flex-row">
+        <HeaderSection
+          style="desktop"
+          text={`News-letter`}
+          className={"px-8"}
+          display="lg:hidden"
+        />
 
-        <InformationBlock title="none" />
+        <h1 className="hidden w-80 pl-8 text-4xl font-semibold lg:block">
+          Bleib mit dem Newsletter auf dem Laufenden
+        </h1>
 
-        <NewsLetterForm />
+        <div className="flex flex-col gap-10 lg:w-1/2">
+          <InformationBlock title="none" />
+
+          <NewsLetterForm />
+        </div>
       </section>
     </main>
   );

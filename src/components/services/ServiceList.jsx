@@ -3,7 +3,7 @@ import ServiceListItem from "./ServiceListItem";
 
 function ServiceList() {
   return (
-    <ul className="grid grid-cols-2 gap-12 lg:flex lg:gap-6">
+    <ul className="grid grid-cols-2 gap-12 lg:flex lg:gap-14">
       <ServiceListItem header="Research" />
       <ServiceListItem header="Product Design" />
       <ServiceListItem header="Research" />
