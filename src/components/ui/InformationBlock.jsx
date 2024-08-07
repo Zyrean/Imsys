@@ -2,16 +2,9 @@ import Image from "next/image";
 
 import TeamMeeting from "@/assets/TeamMeeting.png";
 
-function InformationBlock({ title, type }) {
+function InformationBlock({ title = "", type, children }) {
   if (title === "none") {
-    return (
-      <p className="px-8 text-gray-600">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-        diam nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-        elitr.
-      </p>
-    );
+    return <p className="px-8 text-gray-600">{children}</p>;
   }
 
   if (type === "small") {
@@ -25,10 +18,7 @@ function InformationBlock({ title, type }) {
 
         <div className="flex flex-col gap-2">
           <h2 className="text-xl">{title}</h2>
-          <p className="text-gray-600">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod.
-          </p>
+          <p className="text-gray-600">{children}</p>
         </div>
       </div>
     );
@@ -37,12 +27,7 @@ function InformationBlock({ title, type }) {
   return (
     <div className="flex flex-col gap-4 px-8">
       <h2 className="text-xl">{title}</h2>
-      <p className="text-gray-600">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-        diam nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-        elitr.
-      </p>
+      <p className="text-gray-600">{children}</p>
     </div>
   );
 }

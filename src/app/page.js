@@ -27,19 +27,20 @@ export default function HomePage() {
           />
 
           <h1 className="absolute px-8 text-4xl text-white drop-shadow-2xl sm:top-12 sm:w-80 lg:top-14 lg:w-[470px] lg:px-12 lg:text-5xl">
-            We work as an extension of your team
+            Wir arbeiten als Erweiterung Ihres Teams
           </h1>
         </div>
 
-        <div className="flex flex-col gap-10 px-8 lg:absolute lg:bottom-20 lg:w-[540px] lg:px-12 lg:text-white">
+        <div className="flex flex-col gap-10 px-8 lg:absolute lg:bottom-14 lg:w-[540px] lg:px-12 lg:text-white">
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum.
+            IMSYS ist seit über 20 Jahren eine der führenden XR-Agenturen für
+            Beratung, Planung und Projektierung von digitalen Arbeitsumgebungen.
+            Wir sind spezialisiert auf gut abgestimmte Medienkonzepte,
+            Planungsdienstleistungen, Realisierung und Servicelösungen für
+            Virtual Reality-, Augmented Reality- und Mixed Reality-Umgebungen.
           </p>
 
-          <Button style="learn more">Learn More</Button>
+          <Button style="learn more">Mehr erfahren</Button>
         </div>
       </section>
 
@@ -55,21 +56,21 @@ export default function HomePage() {
         <HeaderSection
           text="Unsere Kunden"
           style="desktop"
-          display="lg:hidden"
+          display="flex lg:hidden"
         />
-        <h2 className="hidden text-2xl lg:block">Unsere Kunden</h2>
+        <h2 className="hidden text-3xl lg:block">Unsere Kunden</h2>
 
         <div className="flex justify-between px-8 lg:w-full">
-          <CustomerItem customer="Appbuster" image={KundenLogo} />
-          <CustomerItem customer="Appbuster" image={KundenLogo} />
-          <CustomerItem customer="Appbuster" image={KundenLogo} />
+          <CustomerItem customer="DB Netze" image={KundenLogo} />
+          <CustomerItem customer="Porsche" image={KundenLogo} />
+          <CustomerItem customer="Herrenknecht" image={KundenLogo} />
           <CustomerItem
-            customer="Appbuster"
+            customer="Bausch+Ströbel"
             image={KundenLogo}
             className="hidden lg:flex"
           />
           <CustomerItem
-            customer="Appbuster"
+            customer="Schott"
             image={KundenLogo}
             className="hidden sm:flex"
           />
@@ -79,11 +80,25 @@ export default function HomePage() {
       {/* SECTION 4 */}
       <section className="flex flex-col gap-10 lg:flex lg:flex-row-reverse lg:justify-between lg:gap-0 lg:px-8 ">
         <div className="flex flex-col gap-10 lg:w-1/2">
-          <HeaderSection style="desktop" text={`Wir über- zeugen weil...`} />
+          <HeaderSection
+            style="desktop"
+            text={`Unser UX Lab wird zu Ihrem Testlabor`}
+          />
 
           <div className="flex flex-col gap-10">
-            <InformationBlock title="High Velocity" />
-            <InformationBlock title="High Velocity" />
+            <InformationBlock title="High Velocity">
+              Willkommen in unserem UX Lab – Ihrem Testlabor für beeindruckende
+              User Experience. Hier eröffnen sich Ihnen Türen in die virtuelle
+              Welt dank modernster Ausstattung: Erlebnisbrillen für VR, AR und
+              MR, beeindruckende Powerwall- und Cave-Systeme, eindrucksvolle
+              Display-Walls sowie die innovative Green Screen Technologie.
+            </InformationBlock>
+            <InformationBlock title="High Velocity">
+              Testen Sie persönlich Ihre zukünftige Hardware und Software im
+              User Experience Lab. Wir bieten auch Vor-Ort-Tests an, um Ihnen
+              die beste Entscheidungsgrundlage für Ihre digitale Arbeitsumgebung
+              zu schaffen.
+            </InformationBlock>
           </div>
         </div>
 
@@ -96,14 +111,22 @@ export default function HomePage() {
 
       {/* SECTION 5 */}
       <section className="flex flex-col gap-10 lg:flex-row">
-        <div className="flex flex-col gap-10 lg:w-1/2">
+        <div className="flex flex-col gap-6 lg:w-1/2">
           <HeaderSection
-            text={`Unser Prozess 1`}
+            text={`Service & Schulung`}
             style="desktop"
             className={"px-8"}
           />
 
-          <InformationBlock title="High Velocity" />
+          <InformationBlock>
+            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+            wohl am meisten unterschätzte Bereich – Service und Schulung.
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse. Sind Service und Wartung im Gesamtkonzept gut
+            integriert, ist das eine Garantie, dass die Wertschöpfung Ihrer
+            digitalen Arbeitsumgebung nicht unterbrochen wird, mit all den
+            positiven Effekten auch für Sie und Ihre Mitarbeiter*innen.
+          </InformationBlock>
         </div>
 
         <Image
@@ -115,14 +138,24 @@ export default function HomePage() {
 
       {/* SECTION 6 */}
       <section className="flex flex-col gap-10 lg:flex-row-reverse">
-        <div className="flex flex-col gap-10 lg:w-1/2">
+        <div className="flex flex-col gap-6 lg:w-1/2">
           <HeaderSection
-            text={`Unser Prozess 2`}
+            text={`Innovationstreiber`}
             style="desktop"
             className={"px-8"}
           />
 
-          <InformationBlock title="High Velocity" />
+          <InformationBlock>
+            Jedes einzelne Kundenprojekt ist für uns wichtig, da es dazu
+            beiträgt, unser Fachwissen stetig zu erweitern. Genau das ist die
+            Grundlage für neue Ideen und neue Lösungen, die für Ihre digitale
+            Herausforderung benötigt wird.
+            <br />
+            <br />
+            Neben den bestehenden Lösungen und deren Umsetzung sind Innovationen
+            für Ihre individuellen Herausforderungen ein entscheidender
+            Grundstein für den Erfolg Ihrer digitalen Arbeitsumgebung.
+          </InformationBlock>
         </div>
 
         <Image
@@ -203,7 +236,11 @@ export default function HomePage() {
         </h1>
 
         <div className="flex flex-col gap-10 lg:w-1/2">
-          <InformationBlock title="none" />
+          <InformationBlock title="none">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+            elitr, sed diam nonumy eirmod nonumy eirmod nonumy eirmod.
+          </InformationBlock>
 
           <NewsLetterForm />
         </div>

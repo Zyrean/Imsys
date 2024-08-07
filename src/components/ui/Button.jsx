@@ -52,7 +52,7 @@ function Button({ children, className, style, icon = "false" }) {
     return (
       <button
         className={
-          "flex w-44 items-center gap-4 rounded-br-3xl bg-orange px-8 py-5 text-white " +
+          "flex w-52 items-center gap-4 rounded-br-3xl bg-orange px-8 py-5 text-white " +
           className
         }
       >

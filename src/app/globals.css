@@ -12,6 +12,12 @@ html {
   font-family: "Inter", sans-serif;
 }
 
-main {
-  /* background-color: orangered; */
+main,
+header,
+footer {
+  background-color: white;
 }
+/* 
+body {
+  background-color: gray;
+} */

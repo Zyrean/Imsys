@@ -50,7 +50,11 @@ function FooterBlock({ type }) {
             placeholder="E-Mail..."
             className="border-b-2 border-black pb-2 placeholder-gray-700"
           />
-          <Image src={Arrow} alt="arrow" className="absolute right-0 top-0" />
+          <Image
+            src={Arrow}
+            alt="arrow"
+            className="absolute right-0 top-0 sm:right-[30px] md:right-[30px] lg:right-0"
+          />
         </div>
       </div>
     );
@@ -59,9 +63,9 @@ function FooterBlock({ type }) {
   if (type === "social media") {
     return (
       <div className="flex flex-col gap-4">
-        <h3 className="text-xl font-semibold">Folge uns</h3>
+        <h3 className="text-xl font-semibold">Folge uns auf</h3>
 
-        <div className="flex justify-between">
+        <div className="flex gap-3">
           <Image src={YoutubeIcon} alt="Youtube icon" />
           <Image src={InstagramIcon} alt="Instagram icon" />
           <Image src={FacebookIcon} alt="Facebook icon" />
