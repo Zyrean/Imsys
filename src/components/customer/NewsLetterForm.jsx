@@ -7,7 +7,7 @@ function NewsLetterForm() {
         type="email"
         name="newsletter"
         placeholder="E-Mail hier eintragen..."
-        className="w-56 border-b-2 border-black py-2 placeholder-gray-700"
+        className="w-72 border-b-2 border-black p-2 placeholder-gray-700"
       />
 
       <Button style="default">Abonnieren</Button>

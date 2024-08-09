@@ -13,10 +13,15 @@ import CustomerPost from "@/components/customer/CustomerPost";
 import ButtonNextBack from "@/components/ui/ButtonNextBack";
 import NewsLetterForm from "@/components/customer/NewsLetterForm";
 import KundenLogo from "@/assets/KundenLogo.png";
+import DBLogo from "@/assets/Deutsche_Bahn_AG-Logo.svg";
+import PorscheLogo from "@/assets/Porsche_Logo.svg";
+import HerrenknechtLogo from "@/assets/Herrenknecht_logo.svg";
+import BauschLogo from "@/assets/Bausch_+_Stroebel_Logo.svg";
+import SchottLogo from "@/assets/Schott_(Unternehmen)_logo.svg";
 
 export default function HomePage() {
   return (
-    <main className="flex flex-col gap-20 pb-14 lg:gap-28">
+    <main className="flex flex-col gap-28 pb-14 lg:gap-36">
       {/* SECTION 1 */}
       <section className="relative flex flex-col gap-10">
         <div className="flex items-center lg:items-start">
@@ -40,18 +45,20 @@ export default function HomePage() {
             Virtual Reality-, Augmented Reality- und Mixed Reality-Umgebungen.
           </p>
 
-          <Button style="learn more">Mehr erfahren</Button>
+          <Button style="learn more" to="/loesungen">
+            Mehr erfahren
+          </Button>
         </div>
       </section>
 
-      {/* SECTION 2 */}
+      {/* SECTION 2 / Unsere Services*/}
       <section className="flex flex-col gap-10 px-8 lg:flex-row lg:justify-between lg:gap-0">
-        <HeaderSection text="Unsere Services" />
+        <HeaderSection text="Unsere Services" to="/blog" />
 
         <ServiceList />
       </section>
 
-      {/* SECTION 3 */}
+      {/* SECTION 3 / Unsere Kunden*/}
       <section className="flex flex-col gap-10 lg:items-center lg:justify-between">
         <HeaderSection
           text="Unsere Kunden"
@@ -61,18 +68,18 @@ export default function HomePage() {
         <h2 className="hidden text-3xl lg:block">Unsere Kunden</h2>
 
         <div className="flex justify-between px-8 lg:w-full">
-          <CustomerItem customer="DB Netze" image={KundenLogo} />
-          <CustomerItem customer="Porsche" image={KundenLogo} />
-          <CustomerItem customer="Herrenknecht" image={KundenLogo} />
+          <CustomerItem customer="DB Netze" image={DBLogo} />
+          <CustomerItem customer="Porsche" image={PorscheLogo} />
+          <CustomerItem customer="Herrenknecht" image={HerrenknechtLogo} />
           <CustomerItem
             customer="Bausch+Ströbel"
-            image={KundenLogo}
+            image={BauschLogo}
             className="hidden lg:flex"
           />
           <CustomerItem
             customer="Schott"
-            image={KundenLogo}
-            className="hidden sm:flex"
+            image={SchottLogo}
+            className="hidden lg:flex"
           />
         </div>
       </section>
@@ -175,29 +182,47 @@ export default function HomePage() {
 
         <div className="flex flex-col gap-6">
           <div className="px-8">
-            <ul className="flex justify-between font-semibold uppercase text-gray-600 lg:hidden">
-              <li>all</li>
+            <ul className="group-hover:text-red-700: flex justify-between font-semibold uppercase text-gray-600 lg:hidden">
+              <li className="hover:text-red-500">all</li>
               <li>vr</li>
               <li>ar</li>
               <li>mr</li>
               <li>web design</li>
             </ul>
 
-            <ul className="hidden justify-between font-semibold uppercase text-gray-600 lg:flex">
-              <li>all</li>
-              <li>mobile design</li>
-              <li>web design</li>
-              <li>branding</li>
-              <li>illustration</li>
-              <li>typography</li>
+            <ul className="hidden justify-between font-semibold uppercase text-gray-600 group-hover:text-red-700 lg:flex">
+              <li className="cursor-pointer hover:text-orange">all</li>
+              <li className="cursor-pointer hover:text-orange">
+                mobile design
+              </li>
+              <li className="cursor-pointer hover:text-orange">web design</li>
+              <li className="cursor-pointer hover:text-orange">branding</li>
+              <li className="cursor-pointer hover:text-orange">illustration</li>
+              <li className="cursor-pointer hover:text-orange">typography</li>
             </ul>
           </div>
 
           <div className="grid grid-cols-2 gap-4 px-8 md:gap-8">
-            <InformationBlock type="small" title="Real Estat Landing Page" />
-            <InformationBlock type="small" title="Real Estat Landing Page" />
-            <InformationBlock type="small" title="Real Estat Landing Page" />
-            <InformationBlock type="small" title="Real Estat Landing Page" />
+            <InformationBlock type="small" title="Real Estat Landing Page">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+              elitr, sed diam nonumy eirmod nonumy eirmod nonumy eirmod.
+            </InformationBlock>
+            <InformationBlock type="small" title="Real Estat Landing Page">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+              elitr, sed diam nonumy eirmod nonumy eirmod nonumy eirmod.
+            </InformationBlock>
+            <InformationBlock type="small" title="Real Estat Landing Page">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+              elitr, sed diam nonumy eirmod nonumy eirmod nonumy eirmod.
+            </InformationBlock>
+            <InformationBlock type="small" title="Real Estat Landing Page">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+              elitr, sed diam nonumy eirmod nonumy eirmod nonumy eirmod.
+            </InformationBlock>
           </div>
         </div>
       </section>

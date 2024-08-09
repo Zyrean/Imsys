@@ -17,7 +17,22 @@ header,
 footer {
   background-color: white;
 }
-/* 
-body {
-  background-color: gray;
-} */
+
+input {
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input:focus {
+  border: 1.5px solid #2c6b9a;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.hover-shadow-bottom:hover {
+  box-shadow: inset 0px -1px 0px 0px #2c6b9a;
+  box-sizing: border-box;
+}

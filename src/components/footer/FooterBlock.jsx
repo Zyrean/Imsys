@@ -6,6 +6,7 @@ import YoutubeIcon from "@/assets/Youtube.png";
 import InstagramIcon from "@/assets/Instagram.png";
 import FacebookIcon from "@/assets/Facebook.png";
 import LinkedInIcon from "@/assets/LinkedIn.png";
+import NavLink from "../header/NavLink";
 
 function FooterBlock({ type }) {
   if (type === "agentur") {
@@ -48,12 +49,12 @@ function FooterBlock({ type }) {
             type="email"
             name="newsletter"
             placeholder="E-Mail..."
-            className="border-b-2 border-black pb-2 placeholder-gray-700"
+            className="w-36 border-b-2 border-black py-2 placeholder-gray-700"
           />
           <Image
             src={Arrow}
             alt="arrow"
-            className="absolute right-0 top-0 sm:right-[30px] md:right-[30px] lg:right-0"
+            className="absolute right-2 top-2.5 sm:right-[86px] md:right-[86px] lg:right-[24px]"
           />
         </div>
       </div>
@@ -66,10 +67,18 @@ function FooterBlock({ type }) {
         <h3 className="text-xl font-semibold">Folge uns auf</h3>
 
         <div className="flex gap-3">
-          <Image src={YoutubeIcon} alt="Youtube icon" />
-          <Image src={InstagramIcon} alt="Instagram icon" />
-          <Image src={FacebookIcon} alt="Facebook icon" />
-          <Image src={LinkedInIcon} alt="LinkedIn icon" />
+          <a target="_blank" href="https://youtube.com/">
+            <Image src={YoutubeIcon} alt="Youtube icon" />
+          </a>
+          <a target="_blank" href="https://instagram.com/">
+            <Image src={InstagramIcon} alt="Instagram icon" />
+          </a>
+          <a target="_blank" href="https://facebook.com/">
+            <Image src={FacebookIcon} alt="Facebook icon" />
+          </a>
+          <a target="_blank" href="https://linkedIn.com/">
+            <Image src={LinkedInIcon} alt="LinkedIn icon" />
+          </a>
         </div>
       </div>
     );

@@ -4,7 +4,7 @@ import Arrow from "@/assets/arrow-down-svgrepo-com.svg";
 
 function ButtonNextBack({ className }) {
   return (
-    <button className="border border-gray-400 p-1">
+    <button className="group border border-gray-400 p-1 hover:outline hover:outline-2 hover:outline-blue">
       <Image src={Arrow} alt="Arrow" height={25} className={className} />
     </button>
   );
