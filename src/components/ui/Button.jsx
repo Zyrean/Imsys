@@ -80,7 +80,7 @@ function Button({
       <NavLink to={to} arrow={false}>
         <button
           className={
-            "flex w-52 items-center gap-4 rounded-br-3xl bg-orange px-8 py-5 text-white " +
+            "flex w-52 items-center gap-4 rounded-br-3xl bg-orange px-8 py-5 text-white hover:scale-105 hover:rounded-3xl hover:duration-300 hover:ease-in-out " +
             className
           }
           onClick={onClick}
