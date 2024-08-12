@@ -14,11 +14,21 @@ function FooterBlock({ type }) {
       <div className="flex flex-col gap-4">
         <h3 className="text-xl font-semibold">Agentur</h3>
         <ul className="flex flex-col gap-2">
-          <li>Startseite</li>
-          <li>Über uns</li>
-          <li>Blog</li>
-          <li>Kontakt</li>
-          <li>FAQ</li>
+          <NavLink arrow={false} to="/" className="hover:text-orange">
+            Startseite
+          </NavLink>
+          <NavLink arrow={false} to="/" className="hover:text-orange">
+            Über uns
+          </NavLink>
+          <NavLink arrow={false} to="/" className="hover:text-orange">
+            Blog
+          </NavLink>
+          <NavLink arrow={false} to="/" className="hover:text-orange">
+            Kontakt
+          </NavLink>
+          <NavLink arrow={false} to="/" className="hover:text-orange">
+            FAQ
+          </NavLink>
         </ul>
       </div>
     );
@@ -28,7 +38,9 @@ function FooterBlock({ type }) {
     return (
       <div className="flex flex-col gap-4">
         <h3 className="text-xl font-semibold">Kontakt</h3>
-        <Image src={Logo} alt="Imsys log" />
+        <NavLink arrow={false} to="/">
+          <Image src={Logo} alt="Imsys log" />
+        </NavLink>
         <div className="flex flex-col">
           <p>Hertichstraße 81</p>
           <p>71229 Leonberg</p>
@@ -88,12 +100,24 @@ function FooterBlock({ type }) {
     <div className="flex flex-col gap-4">
       <h3 className="text-xl font-semibold">Service</h3>
       <ul className="flex flex-col gap-2">
-        <li>Virtual Reality</li>
-        <li>Augmented Reality</li>
-        <li>Mixed Reality</li>
-        <li>Virtual Reality</li>
-        <li>Augmented Reality</li>
-        <li>Mixed Reality</li>
+        <NavLink arrow={false} to="/">
+          Virtual Reality
+        </NavLink>
+        <NavLink arrow={false} to="/" className="hover:text-orange">
+          Augmented Reality
+        </NavLink>
+        <NavLink arrow={false} to="/" className="hover:text-orange">
+          Mixed Reality
+        </NavLink>
+        <NavLink arrow={false} to="/" className="hover:text-orange">
+          Virtual Reality
+        </NavLink>
+        <NavLink arrow={false} to="/" className="hover:text-orange">
+          Augmented Reality
+        </NavLink>
+        <NavLink arrow={false} to="/" className="hover:text-orange">
+          Mixed Reality
+        </NavLink>
       </ul>
     </div>
   );

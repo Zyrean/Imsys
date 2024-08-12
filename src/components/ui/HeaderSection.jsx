@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-function HeaderSection({ text, display = "flex", style, to }) {
+function HeaderSection({ text, display = "flex", style, to, className }) {
   if (style === "desktop") {
     return (
       <div className={`${display} justify-between px-8 lg:mt-8`}>
@@ -15,7 +15,7 @@ function HeaderSection({ text, display = "flex", style, to }) {
 
   return (
     <div
-      className={`${display} justify-between sm:text-xs lg:flex-col lg:justify-normal lg:gap-4 lg:self-end `}
+      className={`${display} justify-between sm:text-xs lg:flex-col lg:justify-normal lg:gap-4 lg:self-end ${className}`}
     >
       <h1 className="w-52 text-4xl font-semibold lg:w-36">{text}</h1>
 

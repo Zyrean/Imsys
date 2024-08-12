@@ -11,6 +11,7 @@ import TextBlock from "@/components/herausforderungen/TextBlock";
 import LösungsBlock from "@/components/herausforderungen/LösungsBlock";
 import ContactBlock from "@/components/contact/ContactBlock";
 import WebsiteInformation from "@/components/sections/home/WebsiteInformation";
+import VorteilsBlock from "@/components/herausforderungen/VorteilsBlock";
 
 function HerausforderungenPage() {
   return (
@@ -55,24 +56,19 @@ function HerausforderungenPage() {
         buttonStyle="learn more"
         buttonHref="/loesungen"
       >
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua.
+        IMSYS ist seit über 20 Jahren eine der führenden XR-Agenturen für
+        Beratung, Planung und Projektierung von digitalen Arbeitsumgebungen. Wir
+        sind spezialisiert auf gut abgestimmte Medienkonzepte,
+        Planungsdienstleistungen, Realisierung und Servicelösungen für Virtual
+        Reality-, Augmented Reality- und Mixed Reality-Umgebungen.
       </WebsiteInformation>
 
       {/* SECTION 2 */}
       <section className="flex flex-col gap-10">
-        <div className="flex flex-col gap-10 px-8">
-          <HeaderSection text="Ihre Vorteile" />
+        <div className="flex flex-col gap-10 px-8 lg:flex-row">
+          <HeaderSection text="Ihre Vorteile" className={"lg:w-1/2"} />
 
-          <p>
+          <p className="lg:w-1/2">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
@@ -86,8 +82,8 @@ function HerausforderungenPage() {
       </section>
 
       {/* SECTION 3 */}
-      <section className="flex flex-col gap-10">
-        <div className="flex flex-col gap-10 px-8">
+      <section className="flex flex-col gap-10 lg:flex-row">
+        {/* <div className="flex flex-col gap-10 px-8">
           <HeaderSection text="Konstruk- tionsteam" />
 
           <TextBlock
@@ -110,14 +106,60 @@ function HerausforderungenPage() {
               <li>mehr Agilität</li>
             </ul>
           </TextBlock>
-        </div>
+        </div> */}
+
+        <VorteilsBlock header="Konstruk- tionsteam" className="lg:w-1/2">
+          <TextBlock
+            header="Dezentral, schnell, agil -mit VR sind Ihre
+              Konstruktionsbesprechungen genau das."
+          >
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed.
+          </TextBlock>
+
+          <TextBlock header=" Die Zusammenarbeit von Konstruktionsteams mit VR/AR führt Sie zu:">
+            <ul className="list-disc pl-4">
+              <li>kürzeren Entwicklungszeiten</li>
+              <li>schnelleren Entscheidungsfindung</li>
+              <li>Kosten- und Zeitersparnis</li>
+              <li>mehr Agilität</li>
+            </ul>
+          </TextBlock>
+        </VorteilsBlock>
 
         <Image src={Pic2} alt="Women with VR glasses" />
       </section>
 
       {/* SECTION 4 */}
-      <section className="flex flex-col gap-10">
-        <div className="flex flex-col gap-10 px-8">
+      <section className="flex flex-col gap-10 lg:flex-row-reverse">
+        <VorteilsBlock header="Remote Service" className="lg:w-1/2">
+          <TextBlock header="Schneller Service, schnelle Reaktion, schnelle Verfügbarkeit - Ein neues Servicelebel">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed.
+          </TextBlock>
+
+          <TextBlock header="Der Einsatz von Remote-Service führt im Ergebnis zu">
+            <ul className="list-disc pl-4">
+              <li>Kosten- und Zeiterstarung</li>
+              <li>
+                Flexiblen Einsatz des Expertenwissens (standortunabhängig)
+              </li>
+              <li>Mehr nachhaltigkeit</li>
+              <li>Höhere Wettbewerbsfähigkeit</li>
+              <li>hohe Kundenzufriedenheit durch gekürzte Ausfallzeiten</li>
+            </ul>
+          </TextBlock>
+        </VorteilsBlock>
+
+        {/* <div className="flex flex-col gap-10 px-8">
           <HeaderSection text="Remote Service" />
 
           <TextBlock header="Schneller Service, schnelle Reaktion, schnelle Verfügbarkeit - Ein neues Servicelebel">
@@ -140,14 +182,35 @@ function HerausforderungenPage() {
               <li>hohe Kundenzufriedenheit durch gekürzte Ausfallzeiten</li>
             </ul>
           </TextBlock>
-        </div>
+        </div> */}
 
         <Image src={Pic3} alt="Women with VR glasses" />
       </section>
 
       {/* SECTION 5 */}
-      <section className="flex flex-col gap-10">
-        <div className="flex flex-col gap-10 px-8">
+      <section className="flex flex-col gap-10 lg:flex-row">
+        <VorteilsBlock header="Virtuelle Zusammen- arbeit" className="lg:w-1/2">
+          <TextBlock header="Effektiv, abgestimmt, koordiniert -virtuelle Zusammenarbeit in der Produktionsplanung.">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed.
+          </TextBlock>
+
+          <TextBlock header="Die vurtuelle Zusammenarbeit in der Produktionsplanung führt im Ergebnis zu">
+            <ul className="list-disc pl-4">
+              <li>Reduzierte Reisezeiten</li>
+              <li>Erhöhter Effizienz</li>
+              <li>Mehr Agilität</li>
+              <li>Mehr Nachhaltigkeit</li>
+              <li>Optimierter Kommunikation</li>
+            </ul>
+          </TextBlock>
+        </VorteilsBlock>
+
+        {/* <div className="flex flex-col gap-10 px-8">
           <HeaderSection text="Virtuelle Zusammen- arbeit" />
 
           <TextBlock header="Effektiv, abgestimmt, koordiniert -virtuelle Zusammenarbeit in der Produktionsplanung.">
@@ -168,34 +231,41 @@ function HerausforderungenPage() {
               <li>Optimierter Kommunikation</li>
             </ul>
           </TextBlock>
-        </div>
+        </div> */}
 
-        <Image src={Pic3} alt="Women with VR glasses" />
+        <Image src={Pic2} alt="Women with VR glasses" />
       </section>
 
       {/* SECTION 6 */}
       <section className="flex flex-col gap-10">
-        <div className="flex flex-col gap-10 bg-gray-200">
-          <Image src={Pic4} alt="Img with a phone" />
-          <div className="px-8">
-            <h2 className="mb-10 text-2xl font-semibold">
+        <div className="flex flex-col gap-10 bg-gray-200 lg:flex-row">
+          <Image
+            src={Pic4}
+            alt="Img with a phone"
+            className="w-full lg:w-1/2"
+          />
+
+          <div className="px-8 lg:flex lg:flex-col lg:justify-center">
+            <h2 className="mb-10 text-2xl font-semibold lg:text-4xl lg:font-medium lg:leading-[50px]">
               Wir haben die Lösung? <br /> Hier lang...
             </h2>
-            <Button style="default" className="mb-10">
+            <Button style="default" className="mb-10 lg:mb-0">
               Weiterlesen
             </Button>
           </div>
         </div>
 
-        <LösungsBlock header="Keys to writing copy that actually converts and sells users">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod. Lorem ipsum dolor sit amet
-        </LösungsBlock>
+        <div className="flex flex-col gap-10 lg:flex-row">
+          <LösungsBlock header="Keys to writing copy that actually converts and sells users">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod. Lorem ipsum dolor sit amet
+          </LösungsBlock>
 
-        <LösungsBlock header="Keys to writing copy that actually converts and sells users">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod. Lorem ipsum dolor sit amet
-        </LösungsBlock>
+          <LösungsBlock header="Keys to writing copy that actually converts and sells users">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod. Lorem ipsum dolor sit amet
+          </LösungsBlock>
+        </div>
       </section>
 
       {/* SECTION 7 */}

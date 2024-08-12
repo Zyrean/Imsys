@@ -34,7 +34,10 @@ function Button({
     return (
       <NavLink to={to} arrow={false}>
         <button
-          className={"w-44 rounded-br-3xl bg-blue py-3 text-white " + className}
+          className={
+            "w-44 rounded-br-3xl bg-blue py-3 text-white hover:scale-105 hover:rounded-full hover:duration-500 hover:ease-in-out " +
+            className
+          }
           onClick={onClick}
         >
           {children}
@@ -64,7 +67,7 @@ function Button({
       <NavLink to={to} arrow={false}>
         <button
           className={
-            "w-44 rounded-br-3xl border-[1px] border-blue py-2 text-blue " +
+            "w-44 rounded-br-3xl border-[1px] border-blue py-[11px] text-blue hover:scale-105 hover:rounded-full hover:duration-500 hover:ease-in-out " +
             className
           }
           onClick={onClick}

@@ -7,7 +7,7 @@ import Innovationstreiber from "@/components/sections/home/Innovationstreiber";
 import ReferenzProjekte from "@/components/sections/home/ReferenzProjekte";
 import KundenPosts from "@/components/sections/home/KundenPosts";
 import Newsletter from "@/components/sections/home/Newsletter";
-import Picture1 from "@/assets/Picture1_390x214.png";
+import Picture1 from "@/assets/Picture1_1200x660.png";
 
 export default function HomePage() {
   return (
