@@ -19,7 +19,7 @@ function Button({
       <NavLink to={to} arrow={false}>
         <button
           className={
-            "w-44 rounded-br-3xl rounded-tl-3xl bg-blue py-5 text-white hover:scale-105 hover:rounded-3xl hover:duration-300 hover:ease-in-out " +
+            "w-auto rounded-br-3xl rounded-tl-3xl bg-blue px-8 py-5 text-white hover:rounded-3xl hover:duration-300 hover:ease-in-out " +
             className
           }
           onClick={onClick}
@@ -80,7 +80,7 @@ function Button({
       <NavLink to={to} arrow={false}>
         <button
           className={
-            "flex w-52 items-center gap-4 rounded-br-3xl bg-orange px-8 py-5 text-white hover:scale-105 hover:rounded-3xl hover:duration-300 hover:ease-in-out " +
+            "flex w-auto items-center gap-4 rounded-br-3xl rounded-tl-3xl bg-orange px-8 py-5 text-white hover:rounded-3xl hover:duration-300 hover:ease-in-out " +
             className
           }
           onClick={onClick}

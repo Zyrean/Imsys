@@ -10,12 +10,13 @@ import Pic4 from "@/assets/Pic4.png";
 import TextBlock from "@/components/herausforderungen/TextBlock";
 import LösungsBlock from "@/components/herausforderungen/LösungsBlock";
 import ContactBlock from "@/components/contact/ContactBlock";
+import WebsiteInformation from "@/components/sections/home/WebsiteInformation";
 
 function HerausforderungenPage() {
   return (
     <main className="flex flex-col gap-20 pb-14">
       {/* SECTION 1 */}
-      <section className="relative flex flex-col gap-10">
+      {/* <section className="relative flex flex-col gap-10">
         <div className="flex items-center">
           <Image src={Pic1} alt="Picture of an office" />
 
@@ -43,7 +44,28 @@ function HerausforderungenPage() {
 
           <Button style="learn more">Zur Lösung</Button>
         </div>
-      </section>
+      </section> */}
+
+      <WebsiteInformation
+        h1="Standort-
+            übergreifendes Arbeiten"
+        image={Pic1}
+        h1Color="text-black"
+        buttonText="Zur Lösung"
+        buttonStyle="learn more"
+        buttonHref="/loesungen"
+      >
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.
+        <br />
+        <br />
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua.
+      </WebsiteInformation>
 
       {/* SECTION 2 */}
       <section className="flex flex-col gap-10">
