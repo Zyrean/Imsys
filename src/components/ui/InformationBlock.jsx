@@ -13,7 +13,7 @@ function InformationBlock({ title = "", type, children }) {
         <Image
           src={TeamMeeting}
           alt="Picture of a groupe having a meeting"
-          className="md:w-full"
+          className="w-full"
         />
 
         <div className="flex flex-col gap-2">

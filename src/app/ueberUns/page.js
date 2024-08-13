@@ -12,20 +12,39 @@ import CustomerItem from "@/components/customer/CustomerItem";
 import Button from "@/components/ui/Button";
 import TeamBewerben from "@/assets/Team_Bewerben.png";
 import ContactForm from "@/components/aboutUs/ContactForm";
+import WebsiteInformation from "@/components/sections/home/WebsiteInformation";
 
 function AboutUsPage() {
   return (
-    <main className="flex flex-col gap-20 pb-14">
+    <main className="flex flex-col gap-28 pb-14 lg:gap-36">
       {/* SECTION 1 */}
-      <section className="relative flex flex-col gap-10">
-        <div className="flex items-center">
-          <Image src={PictureTwo} alt="Picture of a men with VR" height={200} />
 
-          <h1 className="absolute px-8 text-4xl drop-shadow-2xl">
-            Über uns <br /> wer sind wir?
-          </h1>
-        </div>
-      </section>
+      <WebsiteInformation
+        style="small"
+        h1="Über uns
+        wer sind wir?"
+        image={PictureTwo}
+        h1Color="text-black"
+      >
+        <>
+          <p>
+            <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
+            XR-Agenturen für Beratung, Planung und Projektierung von digitalen
+            Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
+            Medienkonzepte, Planungsdienstleistungen, Realisierung und
+            Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
+            Reality-Umgebungen.
+          </p>
+          <p>
+            <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
+            XR-Agenturen für Beratung, Planung und Projektierung von digitalen
+            Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
+            Medienkonzepte, Planungsdienstleistungen, Realisierung und
+            Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
+            Reality-Umgebungen.
+          </p>
+        </>
+      </WebsiteInformation>
 
       {/* SECTION 2 */}
       <section className="relative flex flex-col gap-10">

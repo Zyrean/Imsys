@@ -1,14 +1,14 @@
-import Image from "next/image";
-
 import MenVr from "@/assets/MenWithVr.png";
 import BlogItem from "@/components/blog/BlogItem";
 import Pic1 from "@/assets/Mask1.png";
 import Pic2 from "@/assets/Mask2.png";
 import Pic3 from "@/assets/Mask3.png";
 import Pic4 from "@/assets/Mask4.png";
-import Button from "@/components/ui/Button";
 import ContactBlock from "@/components/contact/ContactBlock";
 import WebsiteInformation from "@/components/sections/home/WebsiteInformation";
+import ReferenzHeaderDektop from "@/components/herausforderungen/ReferenzHeaderDektop";
+import ReferenzHeaderPhone from "@/components/herausforderungen/ReferenzHeaderPhone";
+import HeaderSection from "@/components/ui/HeaderSection";
 
 function BlogPage() {
   return (
@@ -44,15 +44,14 @@ function BlogPage() {
       {/* SECTION 2 */}
       <section>
         <div className="flex flex-col gap-6">
+          <HeaderSection text="Blog" className={"px-8 lg:w-1/2"} />
+
           <div className="px-8">
-            <ul className="flex justify-between font-semibold uppercase text-gray-600">
-              <li>all</li>
-              <li>mobile design</li>
-              <li>web design</li>
-            </ul>
+            <ReferenzHeaderPhone />
+            <ReferenzHeaderDektop />
           </div>
 
-          <ul className="grid grid-cols-2 gap-4 px-8">
+          <ul className="grid grid-cols-2 gap-4 px-8 lg:grid-cols-3 lg:gap-y-8">
             <BlogItem
               image={Pic1}
               interests="alle"
@@ -72,6 +71,36 @@ function BlogPage() {
               image={Pic4}
               interests="alle"
               title="Mulih - Real Estat Landing Page"
+            />
+            <BlogItem
+              image={Pic4}
+              interests="alle"
+              title="Mulih - Real Estat Landing Page"
+              className="hidden lg:flex"
+            />
+            <BlogItem
+              image={Pic4}
+              interests="alle"
+              title="Mulih - Real Estat Landing Page"
+              className="hidden lg:flex"
+            />
+            <BlogItem
+              image={Pic4}
+              interests="alle"
+              title="Mulih - Real Estat Landing Page"
+              className="hidden lg:flex"
+            />
+            <BlogItem
+              image={Pic4}
+              interests="alle"
+              title="Mulih - Real Estat Landing Page"
+              className="hidden lg:flex"
+            />
+            <BlogItem
+              image={Pic4}
+              interests="alle"
+              title="Mulih - Real Estat Landing Page"
+              className="hidden lg:flex"
             />
           </ul>
         </div>

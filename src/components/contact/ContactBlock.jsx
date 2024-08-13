@@ -8,7 +8,7 @@ function ContactBlock() {
         <p>Rufen Sie uns an oder machen Sie einen Termin aus.</p>
       </div>
 
-      <div className="flex flex-col gap-2 lg:flex-row">
+      <div className="flex flex-col gap-2 sm:flex-row">
         <Button style="default small">Terminvereinbarung</Button>
         <Button style="default border">Kontakt</Button>
       </div>
