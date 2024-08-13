@@ -100,7 +100,7 @@ function FooterBlock({ type }) {
     <div className="flex flex-col gap-4">
       <h3 className="text-xl font-semibold">Service</h3>
       <ul className="flex flex-col gap-2">
-        <NavLink arrow={false} to="/">
+        <NavLink arrow={false} to="/" className="hover:text-orange">
           Virtual Reality
         </NavLink>
         <NavLink arrow={false} to="/" className="hover:text-orange">

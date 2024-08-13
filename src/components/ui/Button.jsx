@@ -19,7 +19,7 @@ function Button({
       <NavLink to={to} arrow={false}>
         <button
           className={
-            "w-auto rounded-br-3xl rounded-tl-3xl bg-blue px-8 py-5 text-white hover:rounded-3xl hover:duration-300 hover:ease-in-out " +
+            "w-fit rounded-br-3xl rounded-tl-3xl bg-blue px-10 py-5 text-white hover:rounded-3xl hover:duration-300 hover:ease-in-out " +
             className
           }
           onClick={onClick}
@@ -35,7 +35,7 @@ function Button({
       <NavLink to={to} arrow={false}>
         <button
           className={
-            "w-44 rounded-br-3xl bg-blue py-3 text-white hover:scale-105 hover:rounded-full hover:duration-500 hover:ease-in-out " +
+            "w-fit rounded-br-3xl rounded-tl-3xl bg-blue px-10 py-3 text-white hover:scale-105 hover:rounded-full hover:duration-500 hover:ease-in-out " +
             className
           }
           onClick={onClick}
@@ -51,7 +51,7 @@ function Button({
       <NavLink to={to} arrow={false}>
         <button
           className={
-            "w-36 rounded-br-full rounded-tl-full bg-blue py-2 text-white hover:scale-105 hover:rounded-full hover:duration-500 hover:ease-in-out " +
+            "w-fit rounded-br-full rounded-tl-full bg-blue px-10 py-2 text-white hover:scale-105 hover:rounded-full hover:duration-500 hover:ease-in-out " +
             className
           }
           onClick={onClick}
@@ -67,7 +67,7 @@ function Button({
       <NavLink to={to} arrow={false}>
         <button
           className={
-            "w-44 rounded-br-3xl border-[1px] border-blue py-[11px] text-blue hover:scale-105 hover:rounded-full hover:duration-500 hover:ease-in-out " +
+            "w-fit rounded-br-3xl rounded-tl-3xl border-[1px] border-blue px-10 py-[11px] text-blue hover:scale-105 hover:rounded-full hover:duration-500 hover:ease-in-out " +
             className
           }
           onClick={onClick}

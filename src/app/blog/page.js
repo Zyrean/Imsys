@@ -8,25 +8,38 @@ import Pic3 from "@/assets/Mask3.png";
 import Pic4 from "@/assets/Mask4.png";
 import Button from "@/components/ui/Button";
 import ContactBlock from "@/components/contact/ContactBlock";
+import WebsiteInformation from "@/components/sections/home/WebsiteInformation";
 
 function BlogPage() {
   return (
-    <main className="flex flex-col gap-20 pb-14">
+    <main className="flex flex-col gap-28 pb-14 lg:gap-36">
       {/* SECTION 1 */}
-      <section className="relative flex flex-col gap-10">
-        <div className="flex items-center">
-          <Image src={MenVr} alt="Picture of a men with VR" />
-          <h1 className="absolute px-8 text-4xl drop-shadow-2xl">
-            Perfekte Lösung <br /> finden
-          </h1>
-        </div>
-
-        <p className="px-8">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit Lorem ipsum
-          dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
-        </p>
-      </section>
+      <WebsiteInformation
+        style="small"
+        h1="Finde die Perfekte
+        Lösung"
+        image={MenVr}
+        h1Color="text-black"
+      >
+        <>
+          <p>
+            <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
+            XR-Agenturen für Beratung, Planung und Projektierung von digitalen
+            Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
+            Medienkonzepte, Planungsdienstleistungen, Realisierung und
+            Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
+            Reality-Umgebungen.
+          </p>
+          <p>
+            <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
+            XR-Agenturen für Beratung, Planung und Projektierung von digitalen
+            Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
+            Medienkonzepte, Planungsdienstleistungen, Realisierung und
+            Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
+            Reality-Umgebungen.
+          </p>
+        </>
+      </WebsiteInformation>
 
       {/* SECTION 2 */}
       <section>
