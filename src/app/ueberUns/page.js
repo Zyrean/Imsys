@@ -13,6 +13,7 @@ import Button from "@/components/ui/Button";
 import TeamBewerben from "@/assets/Team_Bewerben.png";
 import ContactForm from "@/components/aboutUs/ContactForm";
 import WebsiteInformation from "@/components/sections/home/WebsiteInformation";
+import UnsereKunden from "@/components/sections/home/UnsereKunden";
 
 function AboutUsPage() {
   return (
@@ -47,39 +48,69 @@ function AboutUsPage() {
       </WebsiteInformation>
 
       {/* SECTION 2 */}
-      <section className="relative flex flex-col gap-10">
-        <HeaderSection text="Was macht den Unterschied" className={"px-8"} />
+      <section className="relative flex flex-col gap-10 lg:flex-row">
+        <div className="flex flex-col gap-10 lg:w-1/2">
+          <HeaderSection text="Was macht den Unterschied" className={"px-8"} />
 
-        <div className="grid grid-cols-2 gap-4 px-8">
-          <Qualification />
-          <Qualification />
-          <Qualification />
-          <Qualification />
+          {/* <div className="grid grid-cols-2 gap-x-6 gap-y-8 px-8 sm:gap-8 */}
+          <div className="grid grid-cols-2 gap-x-6 gap-y-8 px-8 sm:gap-8">
+            <Qualification num="01" header="High Velocity">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+              elitr, sed diam nonumy eirmod.
+            </Qualification>
+            <Qualification num="02" header="High Velocity">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+              elitr, sed diam nonumy eirmod.
+            </Qualification>
+            <Qualification num="01" header="High Velocity">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+              elitr, sed diam nonumy eirmod.
+            </Qualification>
+            <Qualification num="02" header="High Velocity">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+              elitr, sed diam nonumy eirmod.
+            </Qualification>
+          </div>
         </div>
 
-        <Image src={PictureThree} alt="Picture 3" />
+        <Image src={PictureThree} alt="Picture 3" className="w-full lg:w-1/2" />
       </section>
 
       {/* SECTION 3 */}
       <section className="relative flex flex-col gap-10">
         <HeaderSection text="Daten und Fakten" className={"px-8"} />
 
-        <div className="grid grid-cols-2 gap-4 px-8">
-          <Qualification />
-          <Qualification />
-          <Qualification />
-          <Qualification />
+        <div className="grid grid-cols-2 gap-x-6 gap-y-8 px-8 sm:gap-8">
+          <Qualification num="01" header="High Velocity">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+            elitr, sed diam nonumy eirmod.
+          </Qualification>
+          <Qualification num="02" header="High Velocity">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+            elitr, sed diam nonumy eirmod.
+          </Qualification>
+          <Qualification num="01" header="High Velocity">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+            elitr, sed diam nonumy eirmod.
+          </Qualification>
+          <Qualification num="02" header="High Velocity">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
+            elitr, sed diam nonumy eirmod.
+          </Qualification>
         </div>
+      </section>
 
-        <div className="my-10 flex flex-col items-center gap-4 px-8">
-          <h3 className="text-xl">Unsere Kunden</h3>
-
-          <div className="flex w-full justify-between">
-            <CustomerItem image={LogoFour} customer="LL Clothing" />
-            <CustomerItem image={LogoOne} customer="LL Clothing" />
-            <CustomerItem image={LogoThree} customer="LL Clothing" />
-          </div>
-        </div>
+      {/* SECTION 4 */}
+      <section className="relative flex flex-col gap-10">
+        <UnsereKunden />
       </section>
 
       {/* SECTION 4 */}
