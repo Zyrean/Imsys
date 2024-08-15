@@ -16,8 +16,6 @@ import VorteilsBlock from "@/components/herausforderungen/VorteilsBlock";
 function HerausforderungenPage() {
   return (
     <main className="flex flex-col gap-28 pb-14 lg:gap-36">
-      {/* SECTION 1 */}
-
       <WebsiteInformation
         h1="Standort-
             übergreifendes Arbeiten"
@@ -35,7 +33,6 @@ function HerausforderungenPage() {
         Reality-Umgebungen.
       </WebsiteInformation>
 
-      {/* SECTION 2 */}
       <section className="flex flex-col gap-10">
         <div className="flex flex-col gap-10 px-8 lg:flex-row">
           <HeaderSection text="Ihre Vorteile" className={"lg:w-1/2"} />
@@ -53,7 +50,6 @@ function HerausforderungenPage() {
         <Image src={Grafic} alt="Grafic of company skills" />
       </section>
 
-      {/* SECTION 3 */}
       <section className="flex flex-col gap-10 lg:flex-row">
         <VorteilsBlock header="Konstruk- tionsteam" className="lg:w-1/2">
           <TextBlock
@@ -81,7 +77,6 @@ function HerausforderungenPage() {
         <Image src={Pic2} alt="Women with VR glasses" />
       </section>
 
-      {/* SECTION 4 */}
       <section className="flex flex-col gap-10 lg:flex-row-reverse">
         <VorteilsBlock header="Remote Service" className="lg:w-1/2">
           <TextBlock header="Schneller Service, schnelle Reaktion, schnelle Verfügbarkeit - Ein neues Servicelebel">
@@ -109,7 +104,6 @@ function HerausforderungenPage() {
         <Image src={Pic3} alt="Women with VR glasses" />
       </section>
 
-      {/* SECTION 5 */}
       <section className="flex flex-col gap-10 lg:flex-row">
         <VorteilsBlock header="Virtuelle Zusammen- arbeit" className="lg:w-1/2">
           <TextBlock header="Effektiv, abgestimmt, koordiniert -virtuelle Zusammenarbeit in der Produktionsplanung.">
@@ -135,7 +129,6 @@ function HerausforderungenPage() {
         <Image src={Pic2} alt="Women with VR glasses" />
       </section>
 
-      {/* SECTION 6 */}
       <section className="flex flex-col gap-10">
         <div className="flex flex-col gap-10 bg-gray-200 lg:flex-row">
           <Image
@@ -167,7 +160,6 @@ function HerausforderungenPage() {
         </div>
       </section>
 
-      {/* SECTION 7 */}
       <section className="flex flex-col gap-10">
         <ContactBlock />
       </section>
