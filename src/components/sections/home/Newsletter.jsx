@@ -4,7 +4,7 @@ import InformationBlock from "../../ui/InformationBlock";
 
 function Newsletter() {
   return (
-    <section className="flex flex-col justify-between gap-10 lg:flex-row">
+    <section className="bg-lightBlue/15 flex flex-col justify-between gap-10 py-6 lg:flex-row">
       <HeaderSection
         style="desktop"
         text={`News-letter`}
@@ -23,7 +23,7 @@ function Newsletter() {
           elitr, sed diam nonumy eirmod nonumy eirmod nonumy eirmod.
         </InformationBlock>
 
-        <NewsLetterForm />
+        <NewsLetterForm inputBgColor="bg-lightBlue/5" />
       </div>
     </section>
   );

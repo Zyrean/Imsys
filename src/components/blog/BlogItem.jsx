@@ -15,7 +15,7 @@ function BlogItem({ image, interests, title, className }) {
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod sed diam nonumy eirmod.
         </p>
-        <Button style="read artical" className="mb-2">
+        <Button style="read article" className="mb-2 mt-6 px-2">
           Artikel lesen
         </Button>
       </div>

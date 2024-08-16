@@ -108,7 +108,7 @@ function BlogPage() {
 
       {/* SECTION 2 */}
       <section>
-        <ContactBlock />
+        <ContactBlock bgColor="bg-lightBlue/15" />
       </section>
     </main>
   );

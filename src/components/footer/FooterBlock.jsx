@@ -61,12 +61,12 @@ function FooterBlock({ type }) {
             type="email"
             name="newsletter"
             placeholder="E-Mail..."
-            className="w-36 border-b-2 border-black py-2 placeholder-gray-700"
+            className="w-36 border-b-2 border-black py-2"
           />
           <Image
             src={Arrow}
             alt="arrow"
-            className="absolute right-2 top-2.5 sm:right-[86px] md:right-[86px] lg:right-[24px]"
+            className="absolute right-2 top-2.5 sm:right-[86px] md:right-[86px] lg:right-[2px]"
           />
         </div>
       </div>
@@ -78,7 +78,7 @@ function FooterBlock({ type }) {
       <div className="flex flex-col gap-4">
         <h3 className="text-xl font-semibold">Folge uns auf</h3>
 
-        <div className="flex gap-3">
+        <div className="flex justify-between">
           <a target="_blank" href="https://youtube.com/">
             <Image src={YoutubeIcon} alt="Youtube icon" />
           </a>

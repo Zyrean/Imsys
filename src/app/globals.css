@@ -12,17 +12,20 @@ html {
   font-family: "Inter", sans-serif;
 }
 
-main,
-header,
-footer {
-  /* background-color: white; */
-}
-
-input {
+input,
+textarea {
   outline: none;
+  padding-top: 6px;
+  padding-bottom: 4px;
 }
 
-input:focus::placeholder {
+input::placeholder,
+textarea::placeholder {
+  color: "#d3d3d3";
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
   color: transparent;
 }
 
@@ -30,6 +33,12 @@ input:focus {
   border: 1.5px solid #2c6b9a;
   padding-left: 10px;
   border-radius: 10px;
+}
+
+textarea:focus {
+  border: 1.5px solid #2c6b9a;
+  padding-left: 10px;
+  border-radius: 6px;
 }
 
 .hover-shadow-bottom:hover {

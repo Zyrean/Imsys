@@ -130,7 +130,7 @@ function HerausforderungenPage() {
       </section>
 
       <section className="flex flex-col gap-10">
-        <div className="flex flex-col gap-10 bg-gray-200 lg:flex-row">
+        <div className="bg-lightBlue/15 flex flex-col gap-10 lg:flex-row">
           <Image
             src={Pic4}
             alt="Img with a phone"

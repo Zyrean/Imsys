@@ -95,11 +95,11 @@ function Button({
     );
   }
 
-  if (style === "read artical") {
+  if (style === "read article") {
     return (
       <NavLink to={to} arrow={false}>
         <button
-          className={"mt-6 flex items-center gap-4 px-2 py-2 " + className}
+          className={"flex items-center gap-4 py-2 " + className}
           onClick={onClick}
         >
           <p className="text-blue">{children}</p>

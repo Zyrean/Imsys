@@ -12,6 +12,34 @@ function WebsiteInformation({
   buttonStyle,
   children,
 }) {
+  if (style === "split") {
+    return (
+      <section className="relative flex flex-col gap-10 lg:flex-row-reverse">
+        <Image
+          src={image}
+          alt="Picture of a men with VR"
+          className="w-full lg:w-1/2"
+        />
+
+        <div className="flex flex-col gap-10 px-8">
+          <h1
+            className={
+              `absolute top-12 text-4xl drop-shadow-2xl sm:w-80 lg:relative lg:mb-10 lg:text-5xl ` +
+              h1Color
+            }
+          >
+            {h1}
+          </h1>
+          <p>{children}</p>
+
+          <Button style={buttonStyle} to={buttonHref}>
+            {buttonText}
+          </Button>
+        </div>
+      </section>
+    );
+  }
+
   if (style === "small") {
     return (
       <section className="relative flex flex-col gap-10">
@@ -28,18 +56,12 @@ function WebsiteInformation({
               h1Color
             }
           >
-            {/* Wir arbeiten als Erweiterung Ihres Teams */}
             {h1}
           </h1>
         </div>
 
-        {/* <div className="flex flex-col gap-10 px-8 lg:absolute lg:bottom-14 lg:w-[540px] lg:px-12 lg:text-white"> */}
         <div className="flex flex-col gap-10 px-8 lg:flex-row lg:px-12">
           {children}
-
-          {/* <Button style={buttonStyle} to={buttonHref}>
-            {buttonText}
-          </Button> */}
         </div>
       </section>
     );
@@ -56,22 +78,13 @@ function WebsiteInformation({
             h1Color
           }
         >
-          {/* Wir arbeiten als Erweiterung Ihres Teams */}
           {h1}
         </h1>
       </div>
 
       <div className="flex flex-col gap-10 px-8 lg:absolute lg:bottom-14 lg:w-[540px] lg:px-12 lg:text-white">
-        <p>
-          {children}
-          {/* IMSYS ist seit über 20 Jahren eine der führenden XR-Agenturen für
-          Beratung, Planung und Projektierung von digitalen Arbeitsumgebungen.
-          Wir sind spezialisiert auf gut abgestimmte Medienkonzepte,
-          Planungsdienstleistungen, Realisierung und Servicelösungen für Virtual
-          Reality-, Augmented Reality- und Mixed Reality-Umgebungen. */}
-        </p>
+        <p>{children}</p>
 
-        {/* <Button style="learn more" to="/loesungen"> */}
         <Button style={buttonStyle} to={buttonHref}>
           {buttonText}
         </Button>
