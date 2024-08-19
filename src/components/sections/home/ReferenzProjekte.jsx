@@ -9,7 +9,7 @@ function ReferenzProjekte() {
       <HeaderSection
         style="desktop"
         text={`Referenze-projekte`}
-        className={"px-8"}
+        className={"px-8 sm:gap-32"}
       />
 
       <div className="flex flex-col gap-6">

@@ -11,7 +11,7 @@ function ServiceUndSchulung() {
         <HeaderSection
           text={`Service & Schulung`}
           style="desktop"
-          className={"px-8"}
+          className={"px-8 sm:gap-32"}
         />
 
         <InformationBlock>

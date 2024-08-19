@@ -20,7 +20,7 @@ function HerausforderungenPage() {
         h1="Standort-
             übergreifendes Arbeiten"
         image={Pic1}
-        h1Color="text-black"
+        // h1Color="text-black"
         buttonText="Zur Lösung"
         buttonStyle="learn more"
         buttonHref="/loesungen"
@@ -34,28 +34,40 @@ function HerausforderungenPage() {
       </WebsiteInformation>
 
       <section className="flex flex-col gap-10">
-        <div className="flex flex-col gap-10 px-8 lg:flex-row">
-          <HeaderSection text="Ihre Vorteile" className={"lg:w-1/2"} />
+        <div className="flex flex-col gap-10">
+          <HeaderSection
+            text="Ihre Vorteile"
+            // className={"lg:w-1/2"}
+            style="desktop"
+          />
 
-          <p className="lg:w-1/2">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed.
-          </p>
+          <div className="flex flex-col leading-relaxed lg:flex-row">
+            <p className="px-8 lg:w-1/2">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed.
+            </p>
+            <br />
+            <p className="px-8 lg:w-1/2">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+              erat, sed diam voluptua. At vero eos et accusam et justo duo
+              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+              amet, consetetur sadipscing elitr, sed.
+            </p>
+          </div>
         </div>
 
         <Image src={Grafic} alt="Grafic of company skills" />
       </section>
 
       <section className="flex flex-col gap-10 lg:flex-row">
-        <VorteilsBlock header="Konstruk- tionsteam" className="lg:w-1/2">
-          <TextBlock
-            header="Dezentral, schnell, agil -mit VR sind Ihre
-              Konstruktionsbesprechungen genau das."
-          >
+        <VorteilsBlock header="Konstruk-tionsteam" className="lg:w-1/2">
+          <TextBlock header="Dezentral, schnell, agil -mit VR sind Ihre Konstruktionsbesprechungen genau das.">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
@@ -105,7 +117,7 @@ function HerausforderungenPage() {
       </section>
 
       <section className="flex flex-col gap-10 lg:flex-row">
-        <VorteilsBlock header="Virtuelle Zusammen- arbeit" className="lg:w-1/2">
+        <VorteilsBlock header="Virtuelle Zusammen-arbeit" className="lg:w-1/2">
           <TextBlock header="Effektiv, abgestimmt, koordiniert -virtuelle Zusammenarbeit in der Produktionsplanung.">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -130,7 +142,7 @@ function HerausforderungenPage() {
       </section>
 
       <section className="flex flex-col gap-10">
-        <div className="bg-lightBlue/15 flex flex-col gap-10 lg:flex-row">
+        <div className="flex flex-col gap-10 bg-lightBlue/15 lg:flex-row">
           <Image
             src={Pic4}
             alt="Img with a phone"

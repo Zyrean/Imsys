@@ -9,8 +9,10 @@ function ContactBlock({ bgColor }) {
       }
     >
       <div>
-        <h2 className="text-xl font-semibold">Haben Sie Fragen?</h2>
-        <p>Rufen Sie uns an oder machen Sie einen Termin aus.</p>
+        <h2 className="mb-2 text-xl font-semibold">Haben Sie Fragen?</h2>
+        <p className="leading-relaxed">
+          Rufen Sie uns an oder machen Sie einen Termin aus.
+        </p>
       </div>
 
       <div className="flex flex-col gap-2 sm:flex-row">

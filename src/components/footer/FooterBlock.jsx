@@ -78,7 +78,7 @@ function FooterBlock({ type }) {
       <div className="flex flex-col gap-4">
         <h3 className="text-xl font-semibold">Folge uns auf</h3>
 
-        <div className="flex justify-between">
+        <div className="flex justify-between sm:justify-normal sm:gap-4">
           <a target="_blank" href="https://youtube.com/">
             <Image src={YoutubeIcon} alt="Youtube icon" />
           </a>

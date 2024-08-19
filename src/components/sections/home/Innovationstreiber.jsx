@@ -9,9 +9,10 @@ function Innovationstreiber() {
     <section className="flex flex-col gap-10 lg:flex-row-reverse">
       <div className="flex flex-col gap-6 lg:w-1/2">
         <HeaderSection
-          text={`Innovationstreiber`}
+          text={`Innovations-treiber`}
+          // text={`Service & Schulung`}
           style="desktop"
-          className={"px-8"}
+          className={"px-8 sm:gap-32"}
         />
 
         <InformationBlock>

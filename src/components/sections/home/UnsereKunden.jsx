@@ -7,7 +7,7 @@ function UnsereKunden() {
       <HeaderSection
         text="Unsere Kunden"
         style="desktop"
-        display="flex lg:hidden"
+        className="gap-24 lg:hidden"
       />
       <h2 className="hidden text-3xl lg:block">Unsere Kunden</h2>
 

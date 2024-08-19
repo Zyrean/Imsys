@@ -4,12 +4,11 @@ import InformationBlock from "../../ui/InformationBlock";
 
 function Newsletter() {
   return (
-    <section className="bg-lightBlue/15 flex flex-col justify-between gap-10 py-6 lg:flex-row">
+    <section className="flex flex-col justify-between gap-10 bg-lightBlue/15 py-6 lg:flex-row">
       <HeaderSection
         style="desktop"
         text={`News-letter`}
-        className={"px-8"}
-        display="lg:hidden"
+        className={"gap-24 px-8 lg:hidden"}
       />
 
       <h1 className="hidden w-80 pl-8 text-4xl font-semibold lg:block">

@@ -24,7 +24,7 @@ function ContactPage() {
         Reality-Umgebungen.
       </WebsiteInformation>
 
-      <section className="bg-lightBlue/15 relative flex flex-col gap-10 px-8 py-6 lg:flex-row lg:gap-44">
+      <section className="relative flex flex-col gap-10 bg-lightBlue/15 px-8 py-6 lg:flex-row lg:gap-44">
         <div className="flex flex-col gap-10 lg:w-1/3">
           <HeaderSection text="Let's talk" />
 

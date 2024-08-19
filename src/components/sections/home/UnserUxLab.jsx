@@ -11,6 +11,7 @@ function UnserUxLab() {
         <HeaderSection
           style="desktop"
           text={`Unser UX Lab wird zu Ihrem Testlabor`}
+          className="sm:gap-20"
         />
 
         <div className="flex flex-col gap-10">

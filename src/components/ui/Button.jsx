@@ -83,12 +83,12 @@ function Button({
       <NavLink to={to} arrow={false}>
         <button
           className={
-            "flex w-auto items-center gap-4 rounded-br-3xl rounded-tl-3xl bg-orange px-8 py-5 text-white hover:rounded-3xl hover:duration-300 hover:ease-in-out " +
+            "flex w-auto items-center gap-4 rounded-br-3xl rounded-tl-3xl bg-orange px-8 py-5 text-white drop-shadow-2xl hover:rounded-3xl hover:duration-300 hover:ease-in-out " +
             className
           }
           onClick={onClick}
         >
-          <p className="text-white">{children}</p>
+          <p className="text-white ">{children}</p>
           <Image src={ArrowSouthEast} alt="arrow" height={12} />
         </button>
       </NavLink>

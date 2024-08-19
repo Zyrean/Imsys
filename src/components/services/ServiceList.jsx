@@ -5,7 +5,7 @@ import TeamworkIcon from "@/assets/teamwork-svgrepo-com.svg";
 
 function ServiceList() {
   return (
-    <ul className="grid grid-cols-2 gap-12 lg:flex lg:gap-14">
+    <ul className="grid grid-cols-2 gap-12 px-8 lg:flex lg:justify-between">
       <ServiceListItem header="Beratung + Planung" image={StrategyIcon} />
       <ServiceListItem
         header="Projektierung + Umsetzung"
@@ -14,7 +14,7 @@ function ServiceList() {
       <ServiceListItem header="Service + Schulung" image={TrainingIcon} />
       <ServiceListItem
         header="Beratung + Planung"
-        className="lg:hidden"
+        // className="lg:hidden"
         image={StrategyIcon}
       />
       <ServiceListItem

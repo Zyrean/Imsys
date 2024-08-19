@@ -12,7 +12,7 @@ function CustomerPost({ display = "flex" }) {
       <h3 className="font-semibold">
         They imporved our Google rankings, increased traffic to our website
       </h3>
-      <p className="text-xs leading-6 text-gray-600">
+      <p className="text-xs leading-relaxed text-gray-600">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
         diam nonumy eirmod nonumy eirmod nonumy eirmod.

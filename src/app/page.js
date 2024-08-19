@@ -12,7 +12,6 @@ import Picture1 from "@/assets/Picture1_1200x660.png";
 export default function HomePage() {
   return (
     <main className="flex flex-col gap-28 pb-14 lg:gap-36">
-      {/* SECTION 1 */}
       <WebsiteInformation
         h1="Wir arbeiten als Erweiterung Ihres Teams"
         image={Picture1}
@@ -28,28 +27,20 @@ export default function HomePage() {
         Reality-Umgebungen.
       </WebsiteInformation>
 
-      {/* SECTION 2 */}
       <UnsereServices />
 
-      {/* SECTION 3 */}
       <UnsereKunden />
 
-      {/* SECTION 4 */}
       <UnserUxLab />
 
-      {/* SECTION 5 */}
       <ServiceUndSchulung />
 
-      {/* SECTION 6 */}
       <Innovationstreiber />
 
-      {/* SECTION 7 */}
       <ReferenzProjekte />
 
-      {/* SECTION 8 */}
       <KundenPosts />
 
-      {/* SECTION 9 */}
       <Newsletter />
     </main>
   );

@@ -7,7 +7,7 @@ function KundenPosts() {
     <section className="flex flex-col gap-10">
       <HeaderSection
         text={`Was unsere Kunden sagen?`}
-        className={"px-8"}
+        className={"gap-4 px-8 sm:gap-24"}
         style="desktop"
       />
 

@@ -13,7 +13,6 @@ import HeaderSection from "@/components/ui/HeaderSection";
 function BlogPage() {
   return (
     <main className="flex flex-col gap-28 pb-14 lg:gap-36">
-      {/* SECTION 1 */}
       <WebsiteInformation
         style="small"
         h1="Finde die Perfekte
@@ -41,7 +40,6 @@ function BlogPage() {
         </>
       </WebsiteInformation>
 
-      {/* SECTION 2 */}
       <section>
         <div className="flex flex-col gap-6">
           <HeaderSection text="Blog" className={"px-8 lg:w-1/2"} />
@@ -106,7 +104,6 @@ function BlogPage() {
         </div>
       </section>
 
-      {/* SECTION 2 */}
       <section>
         <ContactBlock bgColor="bg-lightBlue/15" />
       </section>
