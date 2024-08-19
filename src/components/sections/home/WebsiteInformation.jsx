@@ -94,20 +94,28 @@ function WebsiteInformation({
 
   return (
     <section className="relative flex flex-col gap-10">
-      <div className="flex items-center lg:items-start">
-        <Image src={image} alt="Picture of a men with VR" className="w-full" />
-
-        <h1
+      <Image src={image} alt="Picture of a men with VR" className="w-full" />
+      {/* <div className="flex items-center lg:items-start"> */}
+      {/* <Image src={image} alt="Picture of a men with VR" className="w-full" /> */}
+      {/* <h1
           className={
             `absolute px-8 text-4xl drop-shadow-2xl sm:top-12 sm:w-80 lg:top-14 lg:w-[470px] lg:px-12 lg:text-5xl ` +
             h1Color
           }
         >
           {h1}
-        </h1>
-      </div>
+        </h1> */}
+      {/* </div> */}
 
       <div className="flex flex-col gap-10 px-8 lg:absolute lg:bottom-14 lg:w-[540px] lg:px-12 lg:text-white">
+        <h1
+          className={
+            `absolute left-0 top-8 px-8 text-4xl drop-shadow-2xl sm:top-12 sm:w-80 lg:relative lg:mb-12 lg:w-[470px] lg:px-0 lg:text-5xl ` +
+            h1Color
+          }
+        >
+          {h1}
+        </h1>
         <p className="leading-relaxed drop-shadow-2xl">{children}</p>
 
         <Button style={buttonStyle} to={buttonHref}>
