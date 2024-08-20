@@ -14,10 +14,10 @@ function InformationBlock({ title = "", type, children }) {
         <Image
           src={TeamMeeting}
           alt="Picture of a groupe having a meeting"
-          className="w-full rounded-md"
+          className="w-full rounded-sm"
         />
 
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 px-2">
           <h2 className="text-xl">{title}</h2>
           <p className="leading-relaxed text-gray-600">{children}</p>
           <Button style="read article">Weiter lesen</Button>

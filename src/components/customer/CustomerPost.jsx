@@ -6,7 +6,7 @@ import QuoteIcon from "@/assets/QuoteIcon.png";
 function CustomerPost({ display = "flex" }) {
   return (
     <div
-      className={`${display} mx-8 flex-col gap-4 border border-gray-400 px-4 py-6 lg:mx-0`}
+      className={`${display} mx-8 flex-col gap-4 rounded-sm border border-gray-400 px-4 py-6 lg:mx-0`}
     >
       <Image src={QuoteIcon} alt="Quote icon" />
       <h3 className="font-semibold">

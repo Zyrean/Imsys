@@ -50,10 +50,7 @@ function Button({
     return (
       <NavLink to={to} arrow={false}>
         <button
-          className={
-            "w-fit rounded-br-full rounded-tl-full bg-blue px-10 py-2 text-white hover:rounded-full hover:duration-500 hover:ease-in-out " +
-            className
-          }
+          className={`w-fit rounded-br-full rounded-tl-full bg-blue px-10 py-2 text-white hover:rounded-full hover:duration-500 hover:ease-in-out ${className}`}
           onClick={onClick}
         >
           {children}

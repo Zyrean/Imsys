@@ -6,7 +6,7 @@ import WomenVr from "@/assets/WomenVr.png";
 
 function UnserUxLab() {
   return (
-    <section className="flex flex-col gap-10 lg:flex lg:flex-row-reverse lg:justify-between lg:gap-0 lg:px-8 ">
+    <section className="flex flex-col gap-10 lg:flex lg:flex-row-reverse lg:justify-between lg:gap-8 lg:px-8 ">
       <div className="flex flex-col gap-10 lg:w-1/2">
         <HeaderSection
           style="desktop"
@@ -34,7 +34,7 @@ function UnserUxLab() {
       <Image
         src={WomenVr}
         alt="Women with Vr glases"
-        className="w-full rounded-md lg:w-1/2"
+        className="rounded-md lg:w-1/2"
       />
     </section>
   );

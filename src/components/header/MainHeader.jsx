@@ -9,22 +9,24 @@ import BurgerMenu from "@/assets/menu-svgrepo-com.svg";
 import NavLink from "./NavLink";
 import { useState } from "react";
 import MenuPhone from "./MenuPhone";
+import OverlayBackground from "../ui/OverlayBackground";
 
 function MainHeader() {
   const [showMenu, setShowMenu] = useState(false);
 
   function toggleMenu() {
-    // () => setShowMenu(!showMenu);
     setShowMenu(!showMenu);
   }
 
   return (
     <>
-      {showMenu && <MenuPhone />}
+      {showMenu && (
+        <OverlayBackground className="w-[390px] sm:w-[544px]">
+          <MenuPhone onToggleMenu={toggleMenu} />
+        </OverlayBackground>
+      )}
 
-      {/* {showMenu === true ? <MenuPhone /> : null} */}
-
-      <header className="flex justify-between px-8 py-4 lg:hidden">
+      <header className="flex justify-between px-8 py-6 lg:hidden">
         <NavLink to="/" arrow={false}>
           <Image src={ImsysLogo} alt="Imsys Logo" />
         </NavLink>

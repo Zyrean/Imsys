@@ -35,7 +35,7 @@ function HerausforderungenPage() {
         </p>
       </WebsiteInformation>
 
-      <section className="flex flex-col gap-10">
+      <section className="flex flex-col items-center gap-10">
         <div className="flex flex-col gap-10">
           <HeaderSection
             text="Ihre Vorteile"
@@ -64,10 +64,14 @@ function HerausforderungenPage() {
           </div>
         </div>
 
-        <Image src={Grafic} alt="Grafic of company skills" />
+        <Image
+          src={Grafic}
+          alt="Grafic of company skills"
+          className="mt-10 w-full lg:w-3/4"
+        />
       </section>
 
-      <section className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:gap-0">
+      <section className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:gap-10">
         <VorteilsBlock
           header="Konstruk-tionsteam"
           className="lg:w-1/2"
