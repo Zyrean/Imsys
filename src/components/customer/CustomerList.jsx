@@ -8,18 +8,33 @@ import SchottLogo from "@/assets/Schott_(Unternehmen)_logo.svg";
 function CustomerList() {
   return (
     <div className="flex justify-between px-8 lg:w-full">
-      <CustomerItem customer="DB Netze" image={DBLogo} />
-      <CustomerItem customer="Porsche" image={PorscheLogo} />
-      <CustomerItem customer="Herrenknecht" image={HerrenknechtLogo} />
+      <CustomerItem
+        customer="DB Netze"
+        image={DBLogo}
+        to="https://www.bahn.de"
+      />
+      <CustomerItem
+        customer="Porsche"
+        image={PorscheLogo}
+        to="https://www.porsche.com"
+      />
+      <CustomerItem
+        customer="Herrenknecht"
+        image={HerrenknechtLogo}
+        to="https://www.herrenknecht.com
+      "
+      />
       <CustomerItem
         customer="Bausch+Ströbel"
         image={BauschLogo}
         className="hidden lg:flex"
+        to="https://www.bausch-stroebel.com"
       />
       <CustomerItem
         customer="Schott"
         image={SchottLogo}
         className="hidden lg:flex"
+        to="https://www.schott.com"
       />
     </div>
   );

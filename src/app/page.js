@@ -17,14 +17,16 @@ export default function HomePage() {
         image={Picture1}
         buttonText="Mehr erfahren"
         buttonStyle="learn more"
-        buttonHref="/loesungen"
+        buttonHref="/herausforderungen"
       >
-        <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
-        XR-Agenturen für Beratung, Planung und Projektierung von digitalen
-        Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
-        Medienkonzepte, Planungsdienstleistungen, Realisierung und
-        Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
-        Reality-Umgebungen.
+        <p className="leading-relaxed text-black lg:text-white">
+          <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
+          XR-Agenturen für Beratung, Planung und Projektierung von digitalen
+          Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
+          Medienkonzepte, Planungsdienstleistungen, Realisierung und
+          Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
+          Reality-Umgebungen.
+        </p>
       </WebsiteInformation>
 
       <UnsereServices />

@@ -66,7 +66,7 @@ function FooterBlock({ type }) {
           <Image
             src={Arrow}
             alt="arrow"
-            className="absolute right-2 top-2.5 sm:right-[86px] md:right-[86px] lg:right-[2px]"
+            className="absolute right-0 top-2.5 sm:right-[76px] lg:right-[2px]"
           />
         </div>
       </div>

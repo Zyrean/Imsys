@@ -1,11 +1,22 @@
 import HeaderSection from "../ui/HeaderSection";
-import TextBlock from "./TextBlock";
 
-function VorteilsBlock({ header, children, className }) {
+function VorteilsBlock({
+  header,
+  childrenPadding,
+  headerGap,
+  className,
+  children,
+}) {
   return (
-    <div className={`flex flex-col gap-10 px-8 ${className}`}>
-      <HeaderSection text={header} style="desktop" className={"gap-20 px-0"} />
-      {children}
+    <div className={`flex flex-col gap-10 ${className}`}>
+      <HeaderSection
+        text={header}
+        style="desktop"
+        className={`${headerGap} + px-0`}
+      />
+      <div className={`flex flex-col gap-10 ` + childrenPadding}>
+        {children}
+      </div>
     </div>
   );
 }

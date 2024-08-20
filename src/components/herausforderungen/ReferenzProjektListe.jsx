@@ -2,7 +2,7 @@ import InformationBlock from "../ui/InformationBlock";
 
 function ReferenzProjektListe() {
   return (
-    <div className="grid grid-cols-2 gap-x-6 gap-y-8 px-8 sm:gap-y-10">
+    <div className="flex flex-col gap-10 px-8 sm:grid sm:grid-cols-2">
       <InformationBlock type="small" title="Real Estat Landing Page">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed

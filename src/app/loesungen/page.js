@@ -15,14 +15,15 @@ function page() {
     <main className="flex flex-col gap-28 pb-14 lg:gap-36">
       <WebsiteInformation
         h1="Lösungen für Sie gemacht"
+        h1Width="w-60 sm:w-[330px] lg:w-[470px]"
         image={VrMeeting}
-        h1Color="text-black"
+        h1Color="text-white"
         buttonText="Mehr erfahren"
         buttonStyle="learn more"
-        buttonHref="/loesungen"
+        buttonHref="/blog"
       >
-        <div className="flex flex-col gap-10 text-black">
-          <p>
+        <div className="flex flex-col gap-10 text-black lg:text-white">
+          <p className="lg:hidden">
             <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
             XR-Agenturen für Beratung, Planung und Projektierung von digitalen
             Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
@@ -43,15 +44,20 @@ function page() {
       </WebsiteInformation>
 
       <section className="flex flex-col gap-10">
+        <HeaderSection
+          text="Unsere Lösungen"
+          style="desktop"
+          className="sm:gap-44"
+        />
         <LoesungenList />
       </section>
 
       <section className="flex flex-col gap-10 lg:flex-row">
         <div className="flex flex-col gap-6 lg:w-1/2">
           <HeaderSection
-            text={`Service & Schulung`}
+            text={`Schritt 1`}
             style="desktop"
-            className={"px-8"}
+            className="gap-24"
           />
 
           <InformationBlock>
@@ -68,16 +74,16 @@ function page() {
         <Image
           src={VrMeeting}
           alt="Team with Vr glases"
-          className="w-full lg:w-1/2 lg:pr-8"
+          className="w-full rounded-md lg:w-1/2 lg:pr-8"
         />
       </section>
 
       <section className="flex flex-col gap-10 lg:flex-row-reverse">
         <div className="flex flex-col gap-6 lg:w-1/2">
           <HeaderSection
-            text={`Service & Schulung`}
+            text={`Schritt 2`}
             style="desktop"
-            className={"px-8"}
+            className="gap-24"
           />
 
           <InformationBlock>
@@ -94,17 +100,13 @@ function page() {
         <Image
           src={VrMeeting}
           alt="Team with Vr glases"
-          className="w-full lg:w-1/2 lg:pr-8"
+          className="w-full rounded-md lg:w-1/2 lg:pr-8"
         />
       </section>
 
       <section className="flex flex-col gap-10 lg:flex-row">
         <div className="flex flex-col gap-6 lg:w-1/2">
-          <HeaderSection
-            text={`Service & Schulung`}
-            style="desktop"
-            className={"px-8"}
-          />
+          <HeaderSection text={`Schritt 3`} style="desktop" />
 
           <InformationBlock>
             In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
@@ -120,7 +122,7 @@ function page() {
         <Image
           src={VrMeeting}
           alt="Team with Vr glases"
-          className="w-full lg:w-1/2 lg:pr-8"
+          className="w-full rounded-md lg:w-1/2 lg:pr-8"
         />
       </section>
 

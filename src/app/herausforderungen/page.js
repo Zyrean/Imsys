@@ -20,24 +20,26 @@ function HerausforderungenPage() {
         h1="Standort-
             übergreifendes Arbeiten"
         image={Pic1}
-        // h1Color="text-black"
+        h1Color="text-black"
         buttonText="Zur Lösung"
         buttonStyle="learn more"
         buttonHref="/loesungen"
       >
-        <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
-        XR-Agenturen für Beratung, Planung und Projektierung von digitalen
-        Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
-        Medienkonzepte, Planungsdienstleistungen, Realisierung und
-        Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
-        Reality-Umgebungen.
+        <p className="leading-relaxed text-black">
+          <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
+          XR-Agenturen für Beratung, Planung und Projektierung von digitalen
+          Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
+          Medienkonzepte, Planungsdienstleistungen, Realisierung und
+          Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
+          Reality-Umgebungen.
+        </p>
       </WebsiteInformation>
 
       <section className="flex flex-col gap-10">
         <div className="flex flex-col gap-10">
           <HeaderSection
             text="Ihre Vorteile"
-            // className={"lg:w-1/2"}
+            className="gap-20 sm:gap-72"
             style="desktop"
           />
 
@@ -65,8 +67,13 @@ function HerausforderungenPage() {
         <Image src={Grafic} alt="Grafic of company skills" />
       </section>
 
-      <section className="flex flex-col gap-10 lg:flex-row">
-        <VorteilsBlock header="Konstruk-tionsteam" className="lg:w-1/2">
+      <section className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:gap-0">
+        <VorteilsBlock
+          header="Konstruk-tionsteam"
+          className="lg:w-1/2"
+          childrenPadding="px-8"
+          headerGap="gap-24"
+        >
           <TextBlock header="Dezentral, schnell, agil -mit VR sind Ihre Konstruktionsbesprechungen genau das.">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -86,11 +93,20 @@ function HerausforderungenPage() {
           </TextBlock>
         </VorteilsBlock>
 
-        <Image src={Pic2} alt="Women with VR glasses" />
+        <Image
+          src={Pic2}
+          alt="Women with VR glasses"
+          className="rounded-md sm:w-full lg:w-1/2"
+        />
       </section>
 
-      <section className="flex flex-col gap-10 lg:flex-row-reverse">
-        <VorteilsBlock header="Remote Service" className="lg:w-1/2">
+      <section className="flex flex-col gap-10 lg:flex-row-reverse lg:justify-between lg:gap-0">
+        <VorteilsBlock
+          header="Remote Service"
+          className="lg:w-1/2"
+          childrenPadding="px-8"
+          headerGap="gap-44"
+        >
           <TextBlock header="Schneller Service, schnelle Reaktion, schnelle Verfügbarkeit - Ein neues Servicelebel">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -113,11 +129,20 @@ function HerausforderungenPage() {
           </TextBlock>
         </VorteilsBlock>
 
-        <Image src={Pic3} alt="Women with VR glasses" />
+        <Image
+          src={Pic3}
+          alt="Women with VR glasses"
+          className="rounded-md sm:w-full lg:w-1/2"
+        />
       </section>
 
-      <section className="flex flex-col gap-10 lg:flex-row">
-        <VorteilsBlock header="Virtuelle Zusammen-arbeit" className="lg:w-1/2">
+      <section className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:gap-0">
+        <VorteilsBlock
+          header="Virtuelle Zusammen-arbeit"
+          className="lg:w-1/2"
+          childrenPadding="px-8"
+          headerGap="gap-24 sm:gap-44"
+        >
           <TextBlock header="Effektiv, abgestimmt, koordiniert -virtuelle Zusammenarbeit in der Produktionsplanung.">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
@@ -138,7 +163,11 @@ function HerausforderungenPage() {
           </TextBlock>
         </VorteilsBlock>
 
-        <Image src={Pic2} alt="Women with VR glasses" />
+        <Image
+          src={Pic2}
+          alt="Women with VR glasses"
+          className="rounded-md sm:w-full lg:w-1/2"
+        />
       </section>
 
       <section className="flex flex-col gap-10">
@@ -146,7 +175,7 @@ function HerausforderungenPage() {
           <Image
             src={Pic4}
             alt="Img with a phone"
-            className="w-full lg:w-1/2"
+            className="w-full rounded-md lg:w-1/2"
           />
 
           <div className="px-8 lg:flex lg:flex-col lg:justify-center">

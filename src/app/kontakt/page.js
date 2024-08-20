@@ -1,8 +1,9 @@
 import PictureFour from "@/assets/Picture_4.png";
-import ContactForm from "@/components/aboutUs/ContactForm";
+import ContactForm from "@/components/contact/ContactForm";
 import HeaderSection from "@/components/ui/HeaderSection";
 import WebsiteInformation from "@/components/sections/home/WebsiteInformation";
 import FAQList from "@/components/contact/FAQList";
+import ContactFormular from "@/components/contact/ContactFormular";
 
 function ContactPage() {
   return (
@@ -11,6 +12,7 @@ function ContactPage() {
         style="split"
         h1={`Wie können wir helfen?`}
         h1Color="text-black"
+        h1Width="w-60 sm:w-[300px] lg:w-[270px]"
         image={PictureFour}
         buttonText="Terminvereinbarung"
         buttonStyle="default"
@@ -24,23 +26,15 @@ function ContactPage() {
         Reality-Umgebungen.
       </WebsiteInformation>
 
-      <section className="relative flex flex-col gap-10 bg-lightBlue/15 px-8 py-6 lg:flex-row lg:gap-44">
-        <div className="flex flex-col gap-10 lg:w-1/3">
-          <HeaderSection text="Let's talk" />
-
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit Lorem
-            ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-            eirmod.
-          </p>
-        </div>
-
-        <ContactForm inputBgColor="bg-lightBlue/5" />
-      </section>
+      <ContactFormular />
 
       <section className="relative flex flex-col gap-10 px-8">
-        <HeaderSection text="Häufig gestellte Fragen (FAQs)" />
+        <HeaderSection
+          text="Häufig gestellte Fragen"
+          style="desktop"
+          px="px-0"
+          className="gap-4 sm:gap-24"
+        />
 
         <FAQList />
       </section>

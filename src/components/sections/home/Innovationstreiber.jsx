@@ -10,7 +10,6 @@ function Innovationstreiber() {
       <div className="flex flex-col gap-6 lg:w-1/2">
         <HeaderSection
           text={`Innovations-treiber`}
-          // text={`Service & Schulung`}
           style="desktop"
           className={"px-8 sm:gap-32"}
         />
@@ -31,7 +30,7 @@ function Innovationstreiber() {
       <Image
         src={EmployeeVr}
         alt="Employee with Vr glases"
-        className="w-full lg:w-1/2 lg:pl-8"
+        className="w-full rounded-md lg:w-1/2 lg:pl-8"
       />
     </section>
   );

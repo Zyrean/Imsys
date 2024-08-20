@@ -12,11 +12,7 @@ function ServiceList() {
         image={TeamworkIcon}
       />
       <ServiceListItem header="Service + Schulung" image={TrainingIcon} />
-      <ServiceListItem
-        header="Beratung + Planung"
-        // className="lg:hidden"
-        image={StrategyIcon}
-      />
+      <ServiceListItem header="Beratung + Planung" image={StrategyIcon} />
       <ServiceListItem
         header="Projektierung + Umsetzung"
         className="lg:hidden"

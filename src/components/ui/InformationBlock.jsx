@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import TeamMeeting from "@/assets/TeamMeeting.png";
+import Button from "./Button";
 
 function InformationBlock({ title = "", type, children }) {
   if (title === "none") {
@@ -13,12 +14,13 @@ function InformationBlock({ title = "", type, children }) {
         <Image
           src={TeamMeeting}
           alt="Picture of a groupe having a meeting"
-          className="w-full"
+          className="w-full rounded-md"
         />
 
         <div className="flex flex-col gap-2">
           <h2 className="text-xl">{title}</h2>
           <p className="leading-relaxed text-gray-600">{children}</p>
+          <Button style="read article">Weiter lesen</Button>
         </div>
       </div>
     );

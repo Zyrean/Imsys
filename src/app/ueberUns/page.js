@@ -6,21 +6,19 @@ import HeaderSection from "@/components/ui/HeaderSection";
 import Qualification from "@/components/aboutUs/Qualification";
 import Button from "@/components/ui/Button";
 import TeamBewerben from "@/assets/Team_Bewerben.png";
-import ContactForm from "@/components/aboutUs/ContactForm";
 import WebsiteInformation from "@/components/sections/home/WebsiteInformation";
 import UnsereKunden from "@/components/sections/home/UnsereKunden";
+import ContactFormular from "@/components/contact/ContactFormular";
 
 function AboutUsPage() {
   return (
     <main className="flex flex-col gap-28 pb-14 lg:gap-36">
-      {/* SECTION 1 */}
-
       <WebsiteInformation
         style="small"
-        h1="Über uns
-        wer sind wir?"
-        image={PictureTwo}
+        h1="Über uns, wer sind wir?"
         h1Color="text-black"
+        h1Width="w-[340px] lg:w-[470px]"
+        image={PictureTwo}
       >
         <>
           <p>
@@ -42,12 +40,14 @@ function AboutUsPage() {
         </>
       </WebsiteInformation>
 
-      {/* SECTION 2 */}
-      <section className="relative flex flex-col gap-10 lg:flex-row">
+      <section className="relative flex flex-col gap-10 lg:flex-row lg:gap-0">
         <div className="flex flex-col gap-10 lg:w-1/2">
-          <HeaderSection text="Was macht den Unterschied" className={"px-8"} />
+          <HeaderSection
+            text="Was macht den Unterschied"
+            className="gap-10 px-8 sm:gap-[174px]"
+            style="desktop"
+          />
 
-          {/* <div className="grid grid-cols-2 gap-x-6 gap-y-8 px-8 sm:gap-8 */}
           <div className="grid grid-cols-2 gap-x-6 gap-y-8 px-8 sm:gap-8">
             <Qualification num="01" header="High Velocity">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -59,12 +59,12 @@ function AboutUsPage() {
               nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
               elitr, sed diam nonumy eirmod.
             </Qualification>
-            <Qualification num="01" header="High Velocity">
+            <Qualification num="03" header="High Velocity">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
               elitr, sed diam nonumy eirmod.
             </Qualification>
-            <Qualification num="02" header="High Velocity">
+            <Qualification num="04" header="High Velocity">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
               elitr, sed diam nonumy eirmod.
@@ -72,14 +72,21 @@ function AboutUsPage() {
           </div>
         </div>
 
-        <Image src={PictureThree} alt="Picture 3" className="w-full lg:w-1/2" />
+        <Image
+          src={PictureThree}
+          alt="Picture 3"
+          className="w-full rounded-md lg:w-1/2"
+        />
       </section>
 
-      {/* SECTION 3 */}
       <section className="relative flex flex-col gap-10">
-        <HeaderSection text="Daten und Fakten" className={"px-8"} />
+        <HeaderSection
+          text="Daten und Fakten"
+          className="px-8 sm:gap-44"
+          style="desktop"
+        />
 
-        <div className="grid grid-cols-2 gap-x-6 gap-y-8 px-8 sm:gap-8">
+        <div className="grid grid-cols-2 gap-x-6 gap-y-8 px-8 sm:gap-8 lg:gap-x-20">
           <Qualification num="01" header="High Velocity">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
@@ -90,12 +97,12 @@ function AboutUsPage() {
             nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
             elitr, sed diam nonumy eirmod.
           </Qualification>
-          <Qualification num="01" header="High Velocity">
+          <Qualification num="03" header="High Velocity">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
             elitr, sed diam nonumy eirmod.
           </Qualification>
-          <Qualification num="02" header="High Velocity">
+          <Qualification num="04" header="High Velocity">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
             elitr, sed diam nonumy eirmod.
@@ -103,34 +110,48 @@ function AboutUsPage() {
         </div>
       </section>
 
-      {/* SECTION 4 */}
       <section className="relative flex flex-col gap-10">
         <UnsereKunden />
       </section>
 
-      {/* SECTION 4 */}
       <section className="relative flex flex-col gap-10">
-        <div className="flex flex-col gap-10 lg:flex-row">
+        <div className="flex flex-col gap-10">
           <HeaderSection
             text="Das sind Wir / Karriere"
-            className={"px-8 lg:w-1/2"}
+            style="desktop"
+            className="flex gap-[80px] px-8 sm:gap-[210px]"
           />
 
-          <div className="flex flex-col gap-10 lg:w-1/2">
-            <p className="px-8">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit Lorem
-              ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-              eirmod.
-            </p>
+          <div className="flex flex-col gap-10">
+            <div className="flex justify-between gap-14 px-8 leading-relaxed">
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod. Lorem ipsum dolor sit amet, consetetur
+                sadipscing elitr, sed diam nonumy eirmod.
+              </p>
 
-            <Button style="learn more" className="ml-8">
+              <p className="hidden lg:flex">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod. Lorem ipsum dolor sit amet, consetetur
+                sadipscing elitr, sed diam nonumy eirmod.
+              </p>
+            </div>
+
+            <Button style="learn more" className="ml-8" to="/kontakt">
               Bewerben
             </Button>
           </div>
         </div>
 
-        <Image src={TeamBewerben} alt="Picture from the Team" />
+        <Image
+          src={TeamBewerben}
+          alt="Picture from the Team"
+          className="rounded-sm"
+        />
 
         <p className="px-8 leading-relaxed">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -148,21 +169,7 @@ function AboutUsPage() {
         </p>
       </section>
 
-      {/* SECTION 5 */}
-      <section className="bg-lightBlue/25 relative flex flex-col gap-10 px-8 py-6 lg:flex-row lg:gap-44">
-        <div className="flex flex-col gap-10 lg:w-1/3">
-          <HeaderSection text="Let's talk" />
-
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit Lorem
-            ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-            eirmod.
-          </p>
-        </div>
-
-        <ContactForm inputBgColor="bg-lightBlue/5" />
-      </section>
+      <ContactFormular />
     </main>
   );
 }

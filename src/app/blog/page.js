@@ -15,10 +15,10 @@ function BlogPage() {
     <main className="flex flex-col gap-28 pb-14 lg:gap-36">
       <WebsiteInformation
         style="small"
-        h1="Finde die Perfekte
-        Lösung"
-        image={MenVr}
+        h1="Finde die Perfekte Lösung"
         h1Color="text-black"
+        h1Width="w-[340px] lg:w-[470px]"
+        image={MenVr}
       >
         <>
           <p>
@@ -42,7 +42,7 @@ function BlogPage() {
 
       <section>
         <div className="flex flex-col gap-6">
-          <HeaderSection text="Blog" className={"px-8 lg:w-1/2"} />
+          <HeaderSection text="Blog" className={"px-8"} style="desktop" />
 
           <div className="px-8">
             <ReferenzHeaderPhone />

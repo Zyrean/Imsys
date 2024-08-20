@@ -28,7 +28,7 @@ function ServiceUndSchulung() {
       <Image
         src={TeamVr}
         alt="Team with Vr glases"
-        className="w-full lg:w-1/2 lg:pr-8"
+        className="w-full rounded-md lg:w-1/2 lg:pr-8"
       />
     </section>
   );

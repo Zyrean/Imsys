@@ -11,7 +11,7 @@ function UnserUxLab() {
         <HeaderSection
           style="desktop"
           text={`Unser UX Lab wird zu Ihrem Testlabor`}
-          className="sm:gap-20"
+          className="sm:gap-32"
         />
 
         <div className="flex flex-col gap-10">
@@ -34,7 +34,7 @@ function UnserUxLab() {
       <Image
         src={WomenVr}
         alt="Women with Vr glases"
-        className="w-full lg:w-1/2"
+        className="w-full rounded-md lg:w-1/2"
       />
     </section>
   );

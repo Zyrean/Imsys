@@ -8,7 +8,7 @@ function UnsereServices() {
         text="Unsere Services"
         to="/blog"
         style="desktop"
-        className="gap-10"
+        className="gap-10 sm:gap-44"
       />
 
       <ServiceList />

@@ -4,8 +4,6 @@ import ImgLoesungTwo from "@/assets/ImgLoesung2.png";
 import ImgLoesungThree from "@/assets/ImgLoesung3.png";
 import ImgLoesungFour from "@/assets/ImgLoesung4.png";
 import ImgLoesungFive from "@/assets/ImgLoesung5.png";
-import ImgLoesungSix from "@/assets/ImgLoesung6.png";
-import ImgLoesungSeven from "@/assets/ImgLoesung7.png";
 
 function LoesungenList() {
   return (
