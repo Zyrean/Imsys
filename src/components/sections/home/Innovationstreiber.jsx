@@ -6,8 +6,8 @@ import EmployeeVr from "@/assets/EmployeeVr.png";
 
 function Innovationstreiber() {
   return (
-    <section className="flex flex-col gap-10 lg:flex-row-reverse">
-      <div className="flex flex-col gap-6 lg:w-1/2">
+    <section className="flex flex-col gap-10 sm:items-center lg:flex-row-reverse">
+      <div className="flex flex-col gap-6 lg:mb-8 lg:w-1/2">
         <HeaderSection
           text={`Innovations-treiber`}
           style="desktop"
@@ -27,11 +27,13 @@ function Innovationstreiber() {
         </InformationBlock>
       </div>
 
-      <Image
-        src={EmployeeVr}
-        alt="Employee with Vr glases"
-        className="w-full rounded-md lg:w-1/2 lg:pl-8"
-      />
+      <div className="h-full w-full px-8 lg:w-1/2">
+        <Image
+          src={EmployeeVr}
+          alt="Employee with Vr glases"
+          className="h-full w-full rounded-md"
+        />
+      </div>
     </section>
   );
 }

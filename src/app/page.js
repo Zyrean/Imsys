@@ -14,6 +14,7 @@ export default function HomePage() {
     <main className="flex flex-col gap-28 pb-14 lg:gap-36">
       <WebsiteInformation
         h1="Wir arbeiten als Erweiterung Ihres Teams"
+        h1Width="sm:w-[340px]"
         image={Picture1}
         buttonText="Mehr erfahren"
         buttonStyle="learn more"

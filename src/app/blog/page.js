@@ -9,6 +9,7 @@ import WebsiteInformation from "@/components/sections/home/WebsiteInformation";
 import ReferenzHeaderDektop from "@/components/herausforderungen/ReferenzHeaderDektop";
 import ReferenzHeaderPhone from "@/components/herausforderungen/ReferenzHeaderPhone";
 import HeaderSection from "@/components/ui/HeaderSection";
+import BlogList from "@/components/blog/BlogList";
 
 function BlogPage() {
   return (
@@ -49,58 +50,7 @@ function BlogPage() {
             <ReferenzHeaderDektop />
           </div>
 
-          <ul className="grid grid-cols-2 gap-4 px-8 lg:grid-cols-3 lg:gap-y-8">
-            <BlogItem
-              image={Pic1}
-              interests="alle"
-              title="Mulih - Real Estat Landing Page"
-            />
-            <BlogItem
-              image={Pic2}
-              interests="alle"
-              title="Mulih - Real Estat Landing Page"
-            />
-            <BlogItem
-              image={Pic3}
-              interests="alle"
-              title="Mulih - Real Estat Landing Page"
-            />
-            <BlogItem
-              image={Pic4}
-              interests="alle"
-              title="Mulih - Real Estat Landing Page"
-            />
-            <BlogItem
-              image={Pic4}
-              interests="alle"
-              title="Mulih - Real Estat Landing Page"
-              className="hidden lg:flex"
-            />
-            <BlogItem
-              image={Pic4}
-              interests="alle"
-              title="Mulih - Real Estat Landing Page"
-              className="hidden lg:flex"
-            />
-            <BlogItem
-              image={Pic4}
-              interests="alle"
-              title="Mulih - Real Estat Landing Page"
-              className="hidden lg:flex"
-            />
-            <BlogItem
-              image={Pic4}
-              interests="alle"
-              title="Mulih - Real Estat Landing Page"
-              className="hidden lg:flex"
-            />
-            <BlogItem
-              image={Pic4}
-              interests="alle"
-              title="Mulih - Real Estat Landing Page"
-              className="hidden lg:flex"
-            />
-          </ul>
+          <BlogList />
         </div>
       </section>
 

@@ -11,11 +11,13 @@ function InformationBlock({ title = "", type, children }) {
   if (type === "small") {
     return (
       <div className="flex flex-col gap-4">
-        <Image
-          src={TeamMeeting}
-          alt="Picture of a groupe having a meeting"
-          className="w-full rounded-sm"
-        />
+        <div className="h-full w-full">
+          <Image
+            src={TeamMeeting}
+            alt="Picture of a groupe having a meeting"
+            className="h-full w-full rounded-md"
+          />
+        </div>
 
         <div className="flex flex-col gap-2 px-2">
           <h2 className="text-xl">{title}</h2>

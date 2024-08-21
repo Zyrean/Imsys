@@ -19,6 +19,7 @@ function HerausforderungenPage() {
       <WebsiteInformation
         h1="Standort-
             übergreifendes Arbeiten"
+        h1Width="sm:w-[340px]"
         image={Pic1}
         h1Color="text-black"
         buttonText="Zur Lösung"
@@ -43,8 +44,8 @@ function HerausforderungenPage() {
             style="desktop"
           />
 
-          <div className="flex flex-col leading-relaxed lg:flex-row">
-            <p className="px-8 lg:w-1/2">
+          <div className="flex flex-col gap-6 px-8 leading-relaxed lg:flex-row">
+            <p className="lg:w-1/2">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
               erat, sed diam voluptua. At vero eos et accusam et justo duo
@@ -53,7 +54,7 @@ function HerausforderungenPage() {
               amet, consetetur sadipscing elitr, sed.
             </p>
             <br />
-            <p className="px-8 lg:w-1/2">
+            <p className="lg:w-1/2">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
               erat, sed diam voluptua. At vero eos et accusam et justo duo
@@ -64,17 +65,19 @@ function HerausforderungenPage() {
           </div>
         </div>
 
-        <Image
-          src={Grafic}
-          alt="Grafic of company skills"
-          className="mt-10 w-full lg:w-3/4"
-        />
+        <div className="mt-10 h-full w-full px-8 lg:w-3/4">
+          <Image
+            src={Grafic}
+            alt="Grafic of company skills"
+            className="h-full w-full rounded-md"
+          />
+        </div>
       </section>
 
-      <section className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:gap-10">
+      <section className="flex flex-col gap-10 sm:items-center lg:flex-row lg:justify-between lg:gap-10 ">
         <VorteilsBlock
           header="Konstruk-tionsteam"
-          className="lg:w-1/2"
+          className="lg:mb-8 lg:w-1/2"
           childrenPadding="px-8"
           headerGap="gap-24"
         >
@@ -97,17 +100,19 @@ function HerausforderungenPage() {
           </TextBlock>
         </VorteilsBlock>
 
-        <Image
-          src={Pic2}
-          alt="Women with VR glasses"
-          className="rounded-md sm:w-full lg:w-1/2"
-        />
+        <div className="h-full w-full px-8 lg:w-1/2">
+          <Image
+            src={Pic2}
+            alt="Women with VR glasses"
+            className="h-full w-full rounded-md"
+          />
+        </div>
       </section>
 
-      <section className="flex flex-col gap-10 lg:flex-row-reverse lg:justify-between lg:gap-0">
+      <section className="flex flex-col gap-10 sm:items-center lg:flex-row-reverse lg:justify-between lg:gap-0">
         <VorteilsBlock
           header="Remote Service"
-          className="lg:w-1/2"
+          className="lg:mb-8 lg:w-1/2"
           childrenPadding="px-8"
           headerGap="gap-44"
         >
@@ -133,18 +138,20 @@ function HerausforderungenPage() {
           </TextBlock>
         </VorteilsBlock>
 
-        <Image
-          src={Pic3}
-          alt="Women with VR glasses"
-          className="rounded-md sm:w-full lg:w-1/2"
-        />
+        <div className="h-full w-full px-8 lg:w-1/2">
+          <Image
+            src={Pic3}
+            alt="Women with VR glasses"
+            className="h-full w-full rounded-md"
+          />
+        </div>
       </section>
 
-      <section className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:gap-0">
+      <section className="flex flex-col gap-10 sm:items-center lg:flex-row lg:justify-between lg:gap-0">
         <VorteilsBlock
           header="Virtuelle Zusammen-arbeit"
           className="lg:w-1/2"
-          childrenPadding="px-8"
+          childrenPadding="px-8 lg:mb-8"
           headerGap="gap-24 sm:gap-44"
         >
           <TextBlock header="Effektiv, abgestimmt, koordiniert -virtuelle Zusammenarbeit in der Produktionsplanung.">
@@ -167,26 +174,41 @@ function HerausforderungenPage() {
           </TextBlock>
         </VorteilsBlock>
 
-        <Image
-          src={Pic2}
-          alt="Women with VR glasses"
-          className="rounded-md sm:w-full lg:w-1/2"
-        />
+        <div className="h-full w-full px-8 lg:w-1/2">
+          <Image
+            src={Pic2}
+            alt="Women with VR glasses"
+            className="h-full w-full rounded-md"
+          />
+        </div>
       </section>
 
       <section className="flex flex-col gap-10">
-        <div className="flex flex-col gap-10 bg-lightBlue/15 lg:flex-row">
+        <div className="flex flex-col gap-10 bg-lightBlue/15 px-8 py-10 lg:hidden lg:flex-col lg:justify-center">
+          <h2 className="text-3xl sm:w-80 lg:text-4xl lg:font-medium lg:leading-[50px]">
+            Wir haben die Lösung? Hier lang...
+          </h2>
           <Image
             src={Pic4}
             alt="Img with a phone"
-            className="w-full rounded-md lg:w-1/2"
+            className="w-full rounded-md sm:self-center lg:w-1/2"
           />
+          <Button style="default" className="lg:mb-0">
+            Weiterlesen
+          </Button>
+        </div>
 
-          <div className="px-8 lg:flex lg:flex-col lg:justify-center">
-            <h2 className="mb-10 text-2xl font-semibold lg:text-4xl lg:font-medium lg:leading-[50px]">
-              Wir haben die Lösung? <br /> Hier lang...
+        <div className="hidden items-center gap-10 bg-lightBlue/15 px-8 py-10 lg:flex">
+          <Image
+            src={Pic4}
+            alt="Img with a phone"
+            className="w-[400px] rounded-md"
+          />
+          <div className="flex flex-col gap-10">
+            <h2 className="w-[400px] text-4xl font-medium leading-[50px]">
+              Wir haben die Lösung? Hier lang...
             </h2>
-            <Button style="default" className="mb-10 lg:mb-0">
+            <Button style="default" className="lg:mb-0">
               Weiterlesen
             </Button>
           </div>

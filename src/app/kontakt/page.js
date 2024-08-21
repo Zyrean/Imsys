@@ -1,5 +1,4 @@
 import PictureFour from "@/assets/Picture_4.png";
-import ContactForm from "@/components/contact/ContactForm";
 import HeaderSection from "@/components/ui/HeaderSection";
 import WebsiteInformation from "@/components/sections/home/WebsiteInformation";
 import FAQList from "@/components/contact/FAQList";

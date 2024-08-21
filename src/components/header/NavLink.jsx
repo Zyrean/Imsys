@@ -7,7 +7,7 @@ function NavLink({ to, children, arrow = true, className }) {
   return (
     <li className={`flex flex-row ${className}`}>
       <Link href={to}>{children}</Link>
-      {arrow && <Image src={Arrow} alt="Arrow" width={20} />}
+      {arrow && <Image src={Arrow} alt="Arrow" width={20} height={20} />}
     </li>
   );
 }

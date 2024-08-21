@@ -3,10 +3,7 @@ import Button from "../ui/Button";
 function ContactBlock({ bgColor }) {
   return (
     <div
-      className={
-        `flex flex-col gap-6 px-8 py-6 lg:flex-row lg:items-center lg:justify-between ` +
-        bgColor
-      }
+      className={`flex flex-col gap-6 px-8 py-6 lg:flex-row lg:items-center lg:justify-between ${bgColor} `}
     >
       <div>
         <h2 className="mb-2 text-xl font-semibold">Haben Sie Fragen?</h2>

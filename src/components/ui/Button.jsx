@@ -77,7 +77,7 @@ function Button({
       <NavLink to={to} arrow={false}>
         <button
           className={
-            "flex w-auto items-center gap-4 rounded-br-3xl rounded-tl-3xl bg-orange px-8 py-5 text-white drop-shadow-2xl hover:rounded-3xl hover:duration-500 hover:ease-in-out " +
+            "flex w-auto items-center gap-4 rounded-br-3xl rounded-tl-3xl bg-orange px-8 py-5 text-white hover:rounded-3xl hover:duration-500 hover:ease-in-out lg:drop-shadow-2xl " +
             className
           }
           onClick={onClick}

@@ -85,7 +85,6 @@ function ContactForm({ style, inputBgColor }) {
           placeholder="Telefon"
           className={`place border-b-[1px] border-black pb-2 ` + inputBgColor}
         />
-        {/* className="w-36 border-b-2 border-black py-2 placeholder-gray-700" */}
 
         <textarea
           name="contactFormText"

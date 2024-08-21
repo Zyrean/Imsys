@@ -6,8 +6,8 @@ import InformationBlock from "../../ui/InformationBlock";
 
 function ServiceUndSchulung() {
   return (
-    <section className="flex flex-col gap-10 lg:flex-row">
-      <div className="flex flex-col gap-6 lg:w-1/2">
+    <section className="flex flex-col gap-10 sm:items-center lg:flex-row">
+      <div className="flex flex-col gap-6 lg:mb-8 lg:w-1/2">
         <HeaderSection
           text={`Service & Schulung`}
           style="desktop"
@@ -25,11 +25,13 @@ function ServiceUndSchulung() {
         </InformationBlock>
       </div>
 
-      <Image
-        src={TeamVr}
-        alt="Team with Vr glases"
-        className="w-full rounded-md lg:w-1/2 lg:pr-8"
-      />
+      <div className="h-full w-full px-8 lg:w-1/2">
+        <Image
+          src={TeamVr}
+          alt="Employee with Vr glases"
+          className="h-full w-full rounded-md"
+        />
+      </div>
     </section>
   );
 }
