@@ -17,7 +17,7 @@ function page() {
         h1Width="sm:w-[280px]"
         h1Color="text-black"
         image={ImgLösungen}
-        buttonText="Unsere Lösungen"
+        buttonText="Zum Blog"
         buttonStyle="learn more"
         buttonHref="/blog"
       >

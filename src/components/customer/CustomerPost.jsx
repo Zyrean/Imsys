@@ -10,12 +10,14 @@ function CustomerPost({ display = "flex" }) {
     >
       <Image src={QuoteIcon} alt="Quote icon" />
       <h3 className="font-semibold">
-        They imporved our Google rankings, increased traffic to our website
+        Sie haben unser Google-Ranking verbessert und den Traffic auf unserer
+        Website erhöht
       </h3>
       <p className="text-xs leading-relaxed text-gray-600">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-        diam nonumy eirmod nonumy eirmod nonumy eirmod.
+        In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+        wohl am meisten unterschätzte Bereich – Service und Schulung.
+        Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in Ihrem
+        Interesse.
       </p>
 
       <div className="flex items-center gap-4">
@@ -24,8 +26,8 @@ function CustomerPost({ display = "flex" }) {
         </div>
 
         <div className="flex flex-col gap-1">
-          <h3 className="font-semibold">Jaydon Aminoff</h3>
-          <p className="text-xs text-gray-600">CTO Sport</p>
+          <h3 className="font-semibold">Stephan Winzer</h3>
+          <p className="text-xs text-gray-600">Swapp GmbH</p>
         </div>
       </div>
     </div>

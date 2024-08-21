@@ -13,6 +13,7 @@ function Button({
   icon = "false",
   onClick,
   to = "",
+  shadow = "lg:drop-shadow-2xl",
 }) {
   if (style === "default") {
     return (
@@ -76,10 +77,7 @@ function Button({
     return (
       <NavLink to={to} arrow={false}>
         <button
-          className={
-            "flex w-auto items-center gap-4 rounded-br-3xl rounded-tl-3xl bg-orange px-8 py-5 text-white hover:rounded-3xl hover:duration-500 hover:ease-in-out lg:drop-shadow-2xl " +
-            className
-          }
+          className={`flex w-auto items-center gap-4 rounded-br-3xl rounded-tl-3xl bg-orange px-8 py-5 text-white hover:rounded-3xl hover:duration-500 hover:ease-in-out ${shadow} ${className}`}
           onClick={onClick}
         >
           <p className="text-white ">{children}</p>

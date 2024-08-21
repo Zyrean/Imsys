@@ -16,8 +16,8 @@ function BlogItem({ image, interests, title, className }) {
         <h5 className="text-sm uppercase text-blue">{interests}</h5>
         <h2 className="text-xl">{title}</h2>
         <p className="text-gray-600">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod sed diam nonumy eirmod.
+          In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+          wohl am meisten unterschätzte Bereich – Service und Schulung.
         </p>
         <Button style="read article" className="mb-2 mt-6 px-2">
           Artikel lesen

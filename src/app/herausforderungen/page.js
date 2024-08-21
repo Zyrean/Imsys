@@ -22,7 +22,7 @@ function HerausforderungenPage() {
         h1Width="sm:w-[340px]"
         image={Pic1}
         h1Color="text-black"
-        buttonText="Zur Lösung"
+        buttonText="Zu den Lösungen"
         buttonStyle="learn more"
         buttonHref="/loesungen"
       >
@@ -46,21 +46,23 @@ function HerausforderungenPage() {
 
           <div className="flex flex-col gap-6 px-8 leading-relaxed lg:flex-row">
             <p className="lg:w-1/2">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur sadipscing elitr, sed.
+              In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+              der wohl am meisten unterschätzte Bereich – Service und Schulung.
+              Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+              Ihrem Interesse. Sind Service und Wartung im Gesamtkonzept gut
+              integriert, ist das eine Garantie, dass die Wertschöpfung Ihrer
+              digitalen Arbeitsumgebung nicht unterbrochen wird, mit all den
+              positiven Effekten auch für Sie und Ihre Mitarbeiter*innen.
             </p>
             <br />
             <p className="lg:w-1/2">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur sadipscing elitr, sed.
+              In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+              der wohl am meisten unterschätzte Bereich – Service und Schulung.
+              Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+              Ihrem Interesse. Sind Service und Wartung im Gesamtkonzept gut
+              integriert, ist das eine Garantie, dass die Wertschöpfung Ihrer
+              digitalen Arbeitsumgebung nicht unterbrochen wird, mit all den
+              positiven Effekten auch für Sie und Ihre Mitarbeiter*innen.
             </p>
           </div>
         </div>
@@ -82,12 +84,10 @@ function HerausforderungenPage() {
           headerGap="gap-24"
         >
           <TextBlock header="Dezentral, schnell, agil -mit VR sind Ihre Konstruktionsbesprechungen genau das.">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed.
+            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+            wohl am meisten unterschätzte Bereich – Service und Schulung.
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse.
           </TextBlock>
 
           <TextBlock header=" Die Zusammenarbeit von Konstruktionsteams mit VR/AR führt Sie zu:">
@@ -117,12 +117,10 @@ function HerausforderungenPage() {
           headerGap="gap-44"
         >
           <TextBlock header="Schneller Service, schnelle Reaktion, schnelle Verfügbarkeit - Ein neues Servicelebel">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed.
+            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+            wohl am meisten unterschätzte Bereich – Service und Schulung.
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse.
           </TextBlock>
 
           <TextBlock header="Der Einsatz von Remote-Service führt im Ergebnis zu">
@@ -155,12 +153,10 @@ function HerausforderungenPage() {
           headerGap="gap-24 sm:gap-44"
         >
           <TextBlock header="Effektiv, abgestimmt, koordiniert -virtuelle Zusammenarbeit in der Produktionsplanung.">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed.
+            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+            wohl am meisten unterschätzte Bereich – Service und Schulung.
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse.
           </TextBlock>
 
           <TextBlock header="Die vurtuelle Zusammenarbeit in der Produktionsplanung führt im Ergebnis zu">
@@ -194,7 +190,7 @@ function HerausforderungenPage() {
             className="w-full rounded-md sm:self-center lg:w-1/2"
           />
           <Button style="default" className="lg:mb-0">
-            Weiterlesen
+            Zur Lösung
           </Button>
         </div>
 
@@ -208,21 +204,25 @@ function HerausforderungenPage() {
             <h2 className="w-[400px] text-4xl font-medium leading-[50px]">
               Wir haben die Lösung? Hier lang...
             </h2>
-            <Button style="default" className="lg:mb-0">
-              Weiterlesen
+            <Button style="default" className="lg:mb-0" to="/loesungen">
+              Zur Lösung
             </Button>
           </div>
         </div>
 
         <div className="flex flex-col gap-10 lg:flex-row">
-          <LösungsBlock header="Keys to writing copy that actually converts and sells users">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod. Lorem ipsum dolor sit amet
+          <LösungsBlock header="Zur schnellen und einfachen Lösung mit Imsys">
+            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+            wohl am meisten unterschätzte Bereich – Service und Schulung.
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse.
           </LösungsBlock>
 
-          <LösungsBlock header="Keys to writing copy that actually converts and sells users">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod. Lorem ipsum dolor sit amet
+          <LösungsBlock header="Zur schnellen und einfachen Lösung mit Imsys">
+            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+            wohl am meisten unterschätzte Bereich – Service und Schulung.
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse.
           </LösungsBlock>
         </div>
       </section>

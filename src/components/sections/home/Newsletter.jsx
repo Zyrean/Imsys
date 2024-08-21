@@ -17,9 +17,10 @@ function Newsletter() {
 
       <div className="flex flex-col gap-10 lg:w-1/2">
         <InformationBlock title="none">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-          elitr, sed diam nonumy eirmod nonumy eirmod nonumy eirmod.
+          In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+          wohl am meisten unterschätzte Bereich – Service und Schulung.
+          Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+          Ihrem Interesse.
         </InformationBlock>
 
         <NewsLetterForm inputBgColor="bg-lightBlue/5" />

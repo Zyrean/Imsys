@@ -8,9 +8,10 @@ function ContactFormular() {
         <HeaderSection text="Let's talk" style="desktop" px="px-0" />
 
         <p className="leading-relaxed">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit Lorem ipsum
-          dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+          In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+          wohl am meisten unterschätzte Bereich – Service und Schulung.
+          Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+          Ihrem Interesse.
         </p>
       </div>
 

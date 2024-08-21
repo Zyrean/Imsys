@@ -13,8 +13,12 @@ function ContactBlock({ bgColor }) {
       </div>
 
       <div className="flex flex-col gap-2 sm:flex-row">
-        <Button style="default small">Terminvereinbarung</Button>
-        <Button style="default border">Kontakt</Button>
+        <Button style="default small" to="/kontakt">
+          Terminvereinbarung
+        </Button>
+        <Button style="default border" to="/kontakt">
+          Kontakt
+        </Button>
       </div>
     </div>
   );

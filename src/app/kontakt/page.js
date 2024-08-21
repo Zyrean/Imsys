@@ -15,7 +15,6 @@ function ContactPage() {
         image={PictureFour}
         buttonText="Terminvereinbarung"
         buttonStyle="default"
-        buttonHref="/loesungen"
       >
         <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
         XR-Agenturen für Beratung, Planung und Projektierung von digitalen

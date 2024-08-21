@@ -16,7 +16,7 @@ export default function HomePage() {
         h1="Wir arbeiten als Erweiterung Ihres Teams"
         h1Width="sm:w-[340px]"
         image={Picture1}
-        buttonText="Mehr erfahren"
+        buttonText="Zu den Herausforderungen"
         buttonStyle="learn more"
         buttonHref="/herausforderungen"
       >

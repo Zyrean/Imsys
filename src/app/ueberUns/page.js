@@ -49,33 +49,37 @@ function AboutUsPage() {
           />
 
           <div className="flex flex-col gap-10 px-8 sm:grid sm:grid-cols-2">
-            <Qualification num="01" header="High Velocity">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-              elitr, sed diam nonumy eirmod.
+            <Qualification num="01" header="Beraten + Planen">
+              In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+              der wohl am meisten unterschätzte Bereich – Service und Schulung.
+              Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+              Ihrem Interesse.
             </Qualification>
-            <Qualification num="02" header="High Velocity">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-              elitr, sed diam nonumy eirmod.
+            <Qualification num="02" header="Projektierung + Umsetzung">
+              In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+              der wohl am meisten unterschätzte Bereich – Service und Schulung.
+              Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+              Ihrem Interesse.
             </Qualification>
             <Qualification
               num="03"
-              header="High Velocity"
+              header="Beraten + Planen"
               className="lg:hidden"
             >
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-              elitr, sed diam nonumy eirmod.
+              In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+              der wohl am meisten unterschätzte Bereich – Service und Schulung.
+              Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+              Ihrem Interesse.
             </Qualification>
             <Qualification
               num="04"
-              header="High Velocity"
+              header="Projektierung + Umsetzung"
               className="lg:hidden"
             >
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-              elitr, sed diam nonumy eirmod.
+              In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+              der wohl am meisten unterschätzte Bereich – Service und Schulung.
+              Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+              Ihrem Interesse.
             </Qualification>
           </div>
 
@@ -101,25 +105,45 @@ function AboutUsPage() {
         />
 
         <div className="grid grid-cols-2 gap-x-6 gap-y-8 px-8 sm:gap-8 lg:gap-x-20">
-          <Qualification num="01" header="High Velocity">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod.
+          <Qualification
+            num="01"
+            header="Spontan und individuell"
+            h3Width="w-[100px] lg:w-[130px]"
+          >
+            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+            wohl am meisten unterschätzte Bereich – Service und Schulung.
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse.
           </Qualification>
-          <Qualification num="02" header="High Velocity">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod.
+          <Qualification
+            num="02"
+            header="Über 1200 zufrienden Kunden"
+            h3Width="lg:w-[200px]"
+          >
+            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+            wohl am meisten unterschätzte Bereich – Service und Schulung.
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse.
           </Qualification>
-          <Qualification num="03" header="High Velocity">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod.
+          <Qualification
+            num="03"
+            header="25+ Jahre erfahrung"
+            h3Width="w-[92px] lg:w-[120px]"
+          >
+            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+            wohl am meisten unterschätzte Bereich – Service und Schulung.
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse.
           </Qualification>
-          <Qualification num="04" header="High Velocity">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod.
+          <Qualification
+            num="04"
+            header="Produktiv und Kompetent"
+            h3Width="w-[106px] lg:w-[200px]"
+          >
+            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+            wohl am meisten unterschätzte Bereich – Service und Schulung.
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse.
           </Qualification>
         </div>
       </section>
@@ -139,23 +163,32 @@ function AboutUsPage() {
           <div className="flex flex-col gap-10">
             <div className="flex justify-between gap-14 px-8 leading-relaxed">
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod. Lorem ipsum dolor sit amet, consetetur
-                sadipscing elitr, sed diam nonumy eirmod.
+                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+                der wohl am meisten unterschätzte Bereich – Service und
+                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
+                Fokus, auch in Ihrem Interesse. Dement­sprechend ist dieser
+                Sektor bei uns immer im Fokus, auch in Ihrem Interesse.
+                Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch
+                in Ihrem Interesse.
               </p>
 
               <p className="hidden lg:flex">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod. Lorem ipsum dolor sit amet, consetetur
-                sadipscing elitr, sed diam nonumy eirmod.
+                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+                der wohl am meisten unterschätzte Bereich – Service und
+                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
+                Fokus, auch in Ihrem Interesse. Dement­sprechend ist dieser
+                Sektor bei uns immer im Fokus, auch in Ihrem Interesse.
+                Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch
+                in Ihrem Interesse.
               </p>
             </div>
 
-            <Button style="learn more" className="ml-8" to="/kontakt">
+            <Button
+              style="learn more"
+              className="ml-8"
+              to="/kontakt"
+              shadow="drop-shadow-none"
+            >
               Bewerben
             </Button>
           </div>
@@ -170,18 +203,24 @@ function AboutUsPage() {
         </div>
 
         <p className="px-8 leading-relaxed">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit Lorem ipsum
-          dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit Lorem ipsum
-          dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit Lorem ipsum
-          dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod sed diam nonumy eirmod Lorem ipsum dolor sit Lorem ipsum
-          dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+          In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
+          wohl am meisten unterschätzte Bereich – Service und Schulung.
+          Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+          Ihrem Interesse. Dement­sprechend ist dieser Sektor bei uns immer im
+          Fokus, auch in Ihrem Interesse. Dement­sprechend ist dieser Sektor bei
+          uns immer im Fokus, auch in Ihrem Interesse. In Ihrem Gesamtkonzept
+          für Ihre digitale Arbeitsumgebung ist das der wohl am meisten
+          unterschätzte Bereich – Service und Schulung. Dement­sprechend ist
+          dieser Sektor bei uns immer im Fokus, auch in Ihrem Interesse.
+          Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+          Ihrem Interesse. Dement­sprechend ist dieser Sektor bei uns immer im
+          Fokus, auch in Ihrem Interesse. In Ihrem Gesamtkonzept für Ihre
+          digitale Arbeitsumgebung ist das der wohl am meisten unterschätzte
+          Bereich – Service und Schulung. Dement­sprechend ist dieser Sektor bei
+          uns immer im Fokus, auch in Ihrem Interesse. Dement­sprechend ist
+          dieser Sektor bei uns immer im Fokus, auch in Ihrem Interesse.
+          Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+          Ihrem Interesse.
         </p>
       </section>
 

@@ -14,20 +14,17 @@ function FooterBlock({ type }) {
       <div className="flex flex-col gap-4">
         <h3 className="text-xl font-semibold">Agentur</h3>
         <ul className="flex flex-col gap-2">
-          <NavLink arrow={false} to="/" className="hover:text-orange">
+          <NavLink arrow={false} to="/" className="hover:text-blue">
             Startseite
           </NavLink>
-          <NavLink arrow={false} to="/" className="hover:text-orange">
+          <NavLink arrow={false} to="/ueberUns" className="hover:text-blue">
             Über uns
           </NavLink>
-          <NavLink arrow={false} to="/" className="hover:text-orange">
+          <NavLink arrow={false} to="/blog" className="hover:text-blue">
             Blog
           </NavLink>
-          <NavLink arrow={false} to="/" className="hover:text-orange">
+          <NavLink arrow={false} to="/kontakt" className="hover:text-blue">
             Kontakt
-          </NavLink>
-          <NavLink arrow={false} to="/" className="hover:text-orange">
-            FAQ
           </NavLink>
         </ul>
       </div>
@@ -66,7 +63,7 @@ function FooterBlock({ type }) {
           <Image
             src={Arrow}
             alt="arrow"
-            className="absolute right-0 top-2.5 sm:right-[76px] lg:right-[2px]"
+            className="absolute right-2 top-2.5 sm:right-[82px] lg:right-[8px]"
           />
         </div>
       </div>
@@ -100,23 +97,21 @@ function FooterBlock({ type }) {
     <div className="flex flex-col gap-4">
       <h3 className="text-xl font-semibold">Service</h3>
       <ul className="flex flex-col gap-2">
-        <NavLink arrow={false} to="/" className="hover:text-orange">
-          Virtual Reality
+        <NavLink arrow={false} to="/" className="hover:text-blue">
+          Beratung
         </NavLink>
-        <NavLink arrow={false} to="/" className="hover:text-orange">
-          Augmented Reality
+        <NavLink arrow={false} to="/" className="hover:text-blue">
+          Planung
         </NavLink>
-        <NavLink arrow={false} to="/" className="hover:text-orange">
-          Mixed Reality
+        <NavLink arrow={false} to="/" className="hover:text-blue">
+          Projektierung
         </NavLink>
-        <NavLink arrow={false} to="/" className="hover:text-orange">
-          Virtual Reality
+
+        <NavLink arrow={false} to="/" className="hover:text-blue">
+          Service
         </NavLink>
-        <NavLink arrow={false} to="/" className="hover:text-orange">
-          Augmented Reality
-        </NavLink>
-        <NavLink arrow={false} to="/" className="hover:text-orange">
-          Mixed Reality
+        <NavLink arrow={false} to="/" className="hover:text-blue">
+          Schulung
         </NavLink>
       </ul>
     </div>
