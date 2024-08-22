@@ -17,7 +17,7 @@ function page() {
         h1Width="sm:w-[280px]"
         h1Color="text-black"
         image={ImgLösungen}
-        buttonText="Zum Blog"
+        buttonText="Zu unserem Blog"
         buttonStyle="learn more"
         buttonHref="/blog"
       >
@@ -121,7 +121,7 @@ function page() {
       </section>
 
       <section>
-        <ContactBlock bgColor="bg-lightBlue/15" />
+        <ContactBlock />
       </section>
     </main>
   );

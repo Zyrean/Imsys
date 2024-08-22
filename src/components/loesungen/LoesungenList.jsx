@@ -39,7 +39,7 @@ function LoesungenList() {
 
       <LoesungsItem
         image={ImgLoesungFive}
-        header="Lösung 5"
+        header="Lösung 6"
         className="hidden lg:flex"
       >
         Egal von welchem Standort, unabhängig von der Teamgröße, ob innerhalb

@@ -22,7 +22,7 @@ function HerausforderungenPage() {
         h1Width="sm:w-[340px]"
         image={Pic1}
         h1Color="text-black"
-        buttonText="Zu den Lösungen"
+        buttonText="Zu unseren Lösungen"
         buttonStyle="learn more"
         buttonHref="/loesungen"
       >

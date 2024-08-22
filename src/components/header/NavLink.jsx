@@ -1,13 +1,50 @@
-import Image from "next/image";
 import Link from "next/link";
+import Button from "../ui/Button";
 
-import Arrow from "@/assets/arrow-down-svgrepo-com.svg";
+function NavLink({
+  to,
+  children,
+  arrow = true,
+  className,
+  type,
+  onToggleMenu,
+}) {
+  if (type === "mobile") {
+    return (
+      <li className={`flex w-fit flex-row py-2 ${className}`}>
+        <Button onClick={onToggleMenu}>
+          <Link href={to} className="flex items-center hover:text-orange">
+            {children}
+          </Link>
+        </Button>
+      </li>
+    );
+  }
 
-function NavLink({ to, children, arrow = true, className }) {
   return (
-    <li className={`flex flex-row ${className}`}>
-      <Link href={to}>{children}</Link>
-      {arrow && <Image src={Arrow} alt="Arrow" width={20} height={20} />}
+    <li className={`group flex flex-row hover:cursor-pointer ${className}`}>
+      {/* className="hover-shadow-bottom py-6 hover:text-orange" */}
+      <Link
+        href={to}
+        // className="hover-shadow-bottom flex items-center bg-red-400 py-6 hover:text-orange"
+        className="flex items-center"
+      >
+        <>
+          {children}
+          {arrow && (
+            <svg
+              className="group-hover:fill-orange"
+              width="20px"
+              height="20px"
+              viewBox="0 0 24 24"
+              fill="#000"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M5.70711 9.71069C5.31658 10.1012 5.31658 10.7344 5.70711 11.1249L10.5993 16.0123C11.3805 16.7927 12.6463 16.7924 13.4271 16.0117L18.3174 11.1213C18.708 10.7308 18.708 10.0976 18.3174 9.70708C17.9269 9.31655 17.2937 9.31655 16.9032 9.70708L12.7176 13.8927C12.3271 14.2833 11.6939 14.2832 11.3034 13.8927L7.12132 9.71069C6.7308 9.32016 6.09763 9.32016 5.70711 9.71069Z" />
+            </svg>
+          )}
+        </>
+      </Link>
     </li>
   );
 }

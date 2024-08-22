@@ -19,6 +19,9 @@ function AboutUsPage() {
         h1Color="text-black"
         h1Width="w-[340px] lg:w-[450px]"
         image={PictureTwo}
+        buttonText="Kontaktieren Sie uns"
+        buttonStyle="learn more"
+        buttonHref="/kontakt"
       >
         <>
           <p>
@@ -40,60 +43,85 @@ function AboutUsPage() {
         </>
       </WebsiteInformation>
 
-      <section className="relative flex flex-col gap-10 lg:flex-row lg:items-center lg:gap-6">
-        <div className="flex flex-col gap-10 lg:mb-8 lg:w-1/2">
-          <HeaderSection
-            text="Was macht den Unterschied"
-            className="gap-10 px-8 sm:gap-[174px]"
-            style="desktop"
-          />
+      <section className="relative flex flex-col gap-10 lg:items-center lg:gap-10">
+        <div className="flex flex-col gap-10 lg:flex-row lg:items-center">
+          <div className="flex flex-col gap-10 lg:mb-8 lg:w-1/2">
+            <HeaderSection
+              text="Was macht den Unterschied"
+              className="gap-10 px-8 sm:gap-[174px]"
+              style="desktop"
+            />
 
-          <div className="flex flex-col gap-10 px-8 sm:grid sm:grid-cols-2">
-            <Qualification num="01" header="Beraten + Planen">
-              In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-              der wohl am meisten unterschätzte Bereich – Service und Schulung.
-              Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-              Ihrem Interesse.
-            </Qualification>
-            <Qualification num="02" header="Projektierung + Umsetzung">
-              In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-              der wohl am meisten unterschätzte Bereich – Service und Schulung.
-              Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-              Ihrem Interesse.
-            </Qualification>
-            <Qualification
-              num="03"
-              header="Beraten + Planen"
-              className="lg:hidden"
-            >
-              In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-              der wohl am meisten unterschätzte Bereich – Service und Schulung.
-              Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-              Ihrem Interesse.
-            </Qualification>
-            <Qualification
-              num="04"
-              header="Projektierung + Umsetzung"
-              className="lg:hidden"
-            >
-              In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-              der wohl am meisten unterschätzte Bereich – Service und Schulung.
-              Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-              Ihrem Interesse.
-            </Qualification>
+            <div className="flex flex-col gap-10 px-8 sm:grid sm:grid-cols-2">
+              <Qualification num="01" header="Beraten + Planen">
+                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+                der wohl am meisten unterschätzte Bereich – Service und
+                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
+                Fokus, auch in Ihrem Interesse.
+              </Qualification>
+              <Qualification num="02" header="Projektierung + Umsetzung">
+                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+                der wohl am meisten unterschätzte Bereich – Service und
+                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
+                Fokus, auch in Ihrem Interesse.
+              </Qualification>
+              <Qualification
+                num="03"
+                header="Beraten + Planen"
+                className="lg:hidden"
+              >
+                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+                der wohl am meisten unterschätzte Bereich – Service und
+                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
+                Fokus, auch in Ihrem Interesse.
+              </Qualification>
+              <Qualification
+                num="04"
+                header="Projektierung + Umsetzung"
+                className="lg:hidden"
+              >
+                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+                der wohl am meisten unterschätzte Bereich – Service und
+                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
+                Fokus, auch in Ihrem Interesse.
+              </Qualification>
+            </div>
           </div>
 
-          <Button style="read article" className="hidden px-8 lg:flex">
-            Weiter lesen
-          </Button>
+          <div className="h-full w-full px-8 lg:w-1/2">
+            <Image
+              src={PictureThree}
+              alt="Picture 3"
+              className="h-full w-full rounded-md"
+            />
+          </div>
         </div>
 
-        <div className="h-full w-full px-8 lg:w-1/2">
-          <Image
-            src={PictureThree}
-            alt="Picture 3"
-            className="h-full w-full rounded-md"
-          />
+        <div className="hidden lg:flex lg:flex-row-reverse lg:items-center">
+          <div className="flex flex-col gap-10 lg:mb-8 lg:w-1/2">
+            <div className="flex flex-col gap-10 px-8 sm:grid sm:grid-cols-2">
+              <Qualification num="03" header="Beraten + Planen">
+                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+                der wohl am meisten unterschätzte Bereich – Service und
+                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
+                Fokus, auch in Ihrem Interesse.
+              </Qualification>
+              <Qualification num="04" header="Projektierung + Umsetzung">
+                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
+                der wohl am meisten unterschätzte Bereich – Service und
+                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
+                Fokus, auch in Ihrem Interesse.
+              </Qualification>
+            </div>
+          </div>
+
+          <div className="h-full w-full px-8 lg:w-1/2">
+            <Image
+              src={PictureThree}
+              alt="Picture 3"
+              className="h-full w-full rounded-md"
+            />
+          </div>
         </div>
       </section>
 
@@ -104,11 +132,11 @@ function AboutUsPage() {
           style="desktop"
         />
 
-        <div className="grid grid-cols-2 gap-x-6 gap-y-8 px-8 sm:gap-8 lg:gap-x-20">
+        <div className="flex flex-col gap-10 px-8 sm:grid sm:grid-cols-2">
           <Qualification
             num="01"
             header="Spontan und individuell"
-            h3Width="w-[100px] lg:w-[130px]"
+            h3Width="w-[200px] lg:w-[130px]"
           >
             In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
             wohl am meisten unterschätzte Bereich – Service und Schulung.
@@ -118,7 +146,7 @@ function AboutUsPage() {
           <Qualification
             num="02"
             header="Über 1200 zufrienden Kunden"
-            h3Width="lg:w-[200px]"
+            h3Width="w-[200px] lg:w-[200px]"
           >
             In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
             wohl am meisten unterschätzte Bereich – Service und Schulung.
@@ -128,7 +156,7 @@ function AboutUsPage() {
           <Qualification
             num="03"
             header="25+ Jahre erfahrung"
-            h3Width="w-[92px] lg:w-[120px]"
+            h3Width="w-[100px] lg:w-[120px]"
           >
             In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
             wohl am meisten unterschätzte Bereich – Service und Schulung.
@@ -138,7 +166,7 @@ function AboutUsPage() {
           <Qualification
             num="04"
             header="Produktiv und Kompetent"
-            h3Width="w-[106px] lg:w-[200px]"
+            h3Width="w-[200px] lg:w-[200px]"
           >
             In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
             wohl am meisten unterschätzte Bereich – Service und Schulung.
@@ -152,7 +180,7 @@ function AboutUsPage() {
         <UnsereKunden />
       </section>
 
-      <section className="relative flex flex-col gap-10 lg:items-center">
+      <section className="relative flex flex-col gap-10">
         <div className="flex flex-col gap-10">
           <HeaderSection
             text="Das sind Wir / Karriere"
@@ -182,19 +210,10 @@ function AboutUsPage() {
                 in Ihrem Interesse.
               </p>
             </div>
-
-            <Button
-              style="learn more"
-              className="ml-8"
-              to="/kontakt"
-              shadow="drop-shadow-none"
-            >
-              Bewerben
-            </Button>
           </div>
         </div>
 
-        <div className="h-full w-full px-8 lg:w-3/4">
+        <div className="h-full w-full px-8 lg:mx-auto lg:w-3/4">
           <Image
             src={TeamBewerben}
             alt="Picture from the Team"
@@ -213,15 +232,27 @@ function AboutUsPage() {
           unterschätzte Bereich – Service und Schulung. Dement­sprechend ist
           dieser Sektor bei uns immer im Fokus, auch in Ihrem Interesse.
           Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-          Ihrem Interesse. Dement­sprechend ist dieser Sektor bei uns immer im
-          Fokus, auch in Ihrem Interesse. In Ihrem Gesamtkonzept für Ihre
-          digitale Arbeitsumgebung ist das der wohl am meisten unterschätzte
-          Bereich – Service und Schulung. Dement­sprechend ist dieser Sektor bei
-          uns immer im Fokus, auch in Ihrem Interesse. Dement­sprechend ist
-          dieser Sektor bei uns immer im Fokus, auch in Ihrem Interesse.
-          Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-          Ihrem Interesse.
+          Ihrem Interesse.{" "}
+          <span className="hidden lg:flex">
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse. In Ihrem Gesamtkonzept für Ihre digitale
+            Arbeitsumgebung ist das der wohl am meisten unterschätzte Bereich –
+            Service und Schulung. Dement­sprechend ist dieser Sektor bei uns
+            immer im Fokus, auch in Ihrem Interesse. Dement­sprechend ist dieser
+            Sektor bei uns immer im Fokus, auch in Ihrem Interesse.
+            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
+            Ihrem Interesse.
+          </span>
         </p>
+
+        <Button
+          style="learn more"
+          className="ml-8 lg:self-start"
+          to="/kontakt"
+          shadow="drop-shadow-none"
+        >
+          Jetzt bewerben
+        </Button>
       </section>
 
       <ContactFormular />

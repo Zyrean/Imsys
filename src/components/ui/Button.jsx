@@ -19,10 +19,7 @@ function Button({
     return (
       <NavLink to={to} arrow={false}>
         <button
-          className={
-            "w-fit rounded-br-3xl rounded-tl-3xl bg-blue px-10 py-5 text-white hover:rounded-3xl hover:duration-500 hover:ease-in-out " +
-            className
-          }
+          className={`w-fit rounded-br-3xl rounded-tl-3xl bg-blue px-10 py-5 text-white hover:rounded-3xl hover:duration-500 hover:ease-in-out ${className}`}
           onClick={onClick}
         >
           {children}
@@ -35,10 +32,7 @@ function Button({
     return (
       <NavLink to={to} arrow={false}>
         <button
-          className={
-            "w-fit rounded-br-3xl rounded-tl-3xl bg-blue px-10 py-3 text-white hover:rounded-full hover:duration-1000 hover:ease-in-out " +
-            className
-          }
+          className={`w-fit rounded-br-3xl rounded-tl-3xl bg-blue px-10 py-3 text-white hover:rounded-3xl hover:duration-500 hover:ease-in-out ${className}`}
           onClick={onClick}
         >
           {children}
@@ -64,7 +58,7 @@ function Button({
     return (
       <NavLink to={to} arrow={false}>
         <button
-          className={`w-fit rounded-br-3xl rounded-tl-3xl border-[1px] border-blue px-10 py-[11px] text-blue hover:rounded-full hover:duration-1000 hover:ease-in-out ${className}`}
+          className={`w-fit rounded-br-3xl rounded-tl-3xl border-[1px] border-blue px-10 py-[11px] text-blue hover:rounded-3xl hover:duration-500 hover:ease-in-out ${className}`}
           onClick={onClick}
         >
           {children}
@@ -91,11 +85,26 @@ function Button({
     return (
       <NavLink to={to} arrow={false}>
         <button
-          className={"flex items-center gap-4 py-2 " + className}
+          className={`group flex items-center gap-2 py-2 ${className}`}
           onClick={onClick}
         >
-          <p className="text-blue">{children}</p>
-          <Image src={ArrowEast} alt="arrow" height={12} className="" />
+          <p className="text-blue group-hover:text-orange">{children}</p>
+          <svg
+            width="20px"
+            height="20px"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#2c6b9a"
+            xmlns="http://www.w3.org/2000/svg"
+            className="group-hover:stroke-orange"
+          >
+            <path
+              d="M6 12H18M18 12L13 7M18 12L13 17"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
         </button>
       </NavLink>
     );
@@ -105,7 +114,8 @@ function Button({
     return (
       <Link href="" className="self-end">
         <button
-          className={"h-11 w-11 rounded-tr-[32px] bg-blue pl-3.5 " + className}
+          className={`group h-11 w-11 rounded-tr-[32px] bg-blue pl-4 ${className}`}
+          // className={`group h-11 w-11 rounded-tr-[32px] bg-blue pl-2.5 hover:rotate-45 hover:bg-white hover:duration-100 ${className}`}
           onClick={onClick}
         >
           <Image src={ArrowNorthEast} alt="arrow" height={12} />
@@ -114,11 +124,7 @@ function Button({
     );
   }
 
-  return (
-    <button className="" onClick={onClick}>
-      {children}
-    </button>
-  );
+  return <button onClick={onClick}>{children}</button>;
 }
 
 export default Button;

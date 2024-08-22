@@ -31,7 +31,7 @@ function UnserUxLab() {
         </div>
       </div>
 
-      <div className="h-full px-8 lg:w-1/2">
+      <div className="h-full w-full px-8 lg:w-1/2">
         <Image
           src={WomenVr}
           alt="Team with Vr glases"

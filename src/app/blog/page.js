@@ -1,9 +1,4 @@
 import MenVr from "@/assets/MenWithVr.png";
-import BlogItem from "@/components/blog/BlogItem";
-import Pic1 from "@/assets/Mask1.png";
-import Pic2 from "@/assets/Mask2.png";
-import Pic3 from "@/assets/Mask3.png";
-import Pic4 from "@/assets/Mask4.png";
 import ContactBlock from "@/components/contact/ContactBlock";
 import WebsiteInformation from "@/components/sections/home/WebsiteInformation";
 import ReferenzHeaderDektop from "@/components/herausforderungen/ReferenzHeaderDektop";
@@ -20,6 +15,9 @@ function BlogPage() {
         h1Color="text-black"
         h1Width="w-[340px] lg:w-[470px]"
         image={MenVr}
+        buttonText="Wissenswertes über uns"
+        buttonStyle="learn more"
+        buttonHref="/ueberUns"
       >
         <>
           <p>
@@ -55,7 +53,7 @@ function BlogPage() {
       </section>
 
       <section>
-        <ContactBlock bgColor="bg-lightBlue/15" />
+        <ContactBlock />
       </section>
     </main>
   );

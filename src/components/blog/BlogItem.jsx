@@ -12,8 +12,10 @@ function BlogItem({ image, interests, title, className }) {
         className="rounded-tl-md rounded-tr-md lg:w-full"
       />
 
-      <div className="flex flex-col gap-2 px-2 sm:px-4">
-        <h5 className="text-sm uppercase text-blue">{interests}</h5>
+      <div className="mt-1 flex flex-col gap-2 px-2 sm:px-4">
+        <h5 className="text-sm font-semibold uppercase text-orange">
+          {interests}
+        </h5>
         <h2 className="text-xl">{title}</h2>
         <p className="text-gray-600">
           In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der

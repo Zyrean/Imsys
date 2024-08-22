@@ -42,6 +42,6 @@ textarea:focus {
 }
 
 .hover-shadow-bottom:hover {
-  box-shadow: inset 0px -1px 0px 0px #2c6b9a;
+  box-shadow: inset 0px -1px 0px 0px #da6e58;
   box-sizing: border-box;
 }

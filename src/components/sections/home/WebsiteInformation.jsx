@@ -58,6 +58,15 @@ function WebsiteInformation({
         </div>
 
         <div className="flex flex-col gap-10 px-8 lg:flex-row">{children}</div>
+
+        <Button
+          style={buttonStyle}
+          to={buttonHref}
+          className="mx-8"
+          shadow="drop-shadow-none"
+        >
+          {buttonText}
+        </Button>
       </section>
     );
   }

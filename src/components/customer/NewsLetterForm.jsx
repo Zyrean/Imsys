@@ -7,10 +7,7 @@ function NewsLetterForm({ inputBgColor }) {
         type="email"
         name="newsletter"
         placeholder="E-Mail hier eintragen..."
-        className={
-          `w-72 border-b-2 border-black p-2 placeholder-gray-700 ` +
-          inputBgColor
-        }
+        className={`w-72 border-b-[2px] border-black p-2 placeholder-gray-700 ${inputBgColor}`}
       />
 
       <Button style="default">Abonnieren</Button>
