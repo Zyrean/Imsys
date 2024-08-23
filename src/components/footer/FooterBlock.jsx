@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import Logo from "@/assets/Logo Imsys.png";
 import Arrow from "@/assets/ArrowEast.png";
 import YoutubeIcon from "@/assets/Youtube.png";
 import InstagramIcon from "@/assets/Instagram.png";

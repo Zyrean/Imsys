@@ -12,11 +12,11 @@ function ContactBlock() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-2 sm:flex-row">
+      <div className="flex flex-col gap-2 sm:flex-row ">
         <Button style="default small" to="/kontakt">
           Terminvereinbarung
         </Button>
-        <Button style="default border" to="/kontakt">
+        <Button style="default border" to="/kontakt" className="px-[82px]">
           Kontakt
         </Button>
       </div>

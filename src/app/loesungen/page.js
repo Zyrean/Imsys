@@ -6,8 +6,7 @@ import HeaderSection from "@/components/ui/HeaderSection";
 import LoesungenList from "@/components/loesungen/LoesungenList";
 import InformationBlock from "@/components/ui/InformationBlock";
 import ContactBlock from "@/components/contact/ContactBlock";
-import Picture1 from "@/assets/Picture1_1200x660.png";
-import ImgLösungen from "@/assets/Lösungen.png";
+import ImgEngeniers from "@/assets/Enginers_1024x562.png";
 
 function page() {
   return (
@@ -15,13 +14,13 @@ function page() {
       <WebsiteInformation
         h1="Lösungen für Sie leicht gemacht"
         h1Width="sm:w-[280px]"
-        h1Color="text-black"
-        image={ImgLösungen}
+        h1Color="text-white"
+        image={ImgEngeniers}
         buttonText="Zu unserem Blog"
         buttonStyle="learn more"
         buttonHref="/blog"
       >
-        <p className="leading-relaxed text-black">
+        <p className="leading-relaxed text-black lg:text-white">
           <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
           XR-Agenturen für Beratung, Planung und Projektierung von digitalen
           Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte

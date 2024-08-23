@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import TeamMeeting from "@/assets/TeamMeeting.png";
+import TeamVr from "@/assets/TeamVr.png";
 import Button from "./Button";
 
 function InformationBlock({ title = "", type, children }) {
@@ -13,7 +13,7 @@ function InformationBlock({ title = "", type, children }) {
       <div className="flex flex-col gap-4">
         <div className="h-full w-full">
           <Image
-            src={TeamMeeting}
+            src={TeamVr}
             alt="Picture of a groupe having a meeting"
             className="h-full w-full rounded-md"
           />

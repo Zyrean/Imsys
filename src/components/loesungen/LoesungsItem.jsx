@@ -4,9 +4,7 @@ import Button from "../ui/Button";
 function LoesungsItem({ image, header, children, className }) {
   return (
     <li
-      className={
-        `flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-8 ` + className
-      }
+      className={`flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-8 ${className}`}
     >
       <Image src={image} alt={`${image} iamge`} className="w-full rounded-md" />
 

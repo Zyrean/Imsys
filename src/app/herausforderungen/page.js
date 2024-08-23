@@ -4,9 +4,10 @@ import Button from "@/components/ui/Button";
 import HeaderSection from "@/components/ui/HeaderSection";
 import Grafic from "@/assets/VorteileGrafic.png";
 import Pic1 from "@/assets/Pic1.png";
-import Pic2 from "@/assets/Pic2.png";
+import Pic2 from "@/assets/14.png";
 import Pic3 from "@/assets/Pic3.png";
 import Pic4 from "@/assets/Pic4.png";
+import Pic5 from "@/assets/Pic2.png";
 import TextBlock from "@/components/herausforderungen/TextBlock";
 import LösungsBlock from "@/components/herausforderungen/LösungsBlock";
 import ContactBlock from "@/components/contact/ContactBlock";
@@ -102,7 +103,7 @@ function HerausforderungenPage() {
 
         <div className="h-full w-full px-8 lg:w-1/2">
           <Image
-            src={Pic2}
+            src={Pic5}
             alt="Women with VR glasses"
             className="h-full w-full rounded-md"
           />
@@ -138,7 +139,7 @@ function HerausforderungenPage() {
 
         <div className="h-full w-full px-8 lg:w-1/2">
           <Image
-            src={Pic3}
+            src={Pic2}
             alt="Women with VR glasses"
             className="h-full w-full rounded-md"
           />
@@ -172,7 +173,7 @@ function HerausforderungenPage() {
 
         <div className="h-full w-full px-8 lg:w-1/2">
           <Image
-            src={Pic2}
+            src={Pic3}
             alt="Women with VR glasses"
             className="h-full w-full rounded-md"
           />
@@ -194,13 +195,13 @@ function HerausforderungenPage() {
           </Button>
         </div>
 
-        <div className="hidden items-center gap-10 bg-lightBlue/15 px-8 py-10 lg:flex">
+        <div className="hidden items-center gap-10 bg-lightBlue/15 px-8 py-10 lg:flex lg:justify-between">
           <Image
             src={Pic4}
             alt="Img with a phone"
             className="w-[400px] rounded-md"
           />
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-10 lg:pr-8">
             <h2 className="w-[400px] text-4xl font-medium leading-[50px]">
               Wir haben die Lösung? Hier lang...
             </h2>

@@ -4,6 +4,7 @@ import ImgLoesungTwo from "@/assets/ImgLoesung2.png";
 import ImgLoesungThree from "@/assets/ImgLoesung3.png";
 import ImgLoesungFour from "@/assets/ImgLoesung4.png";
 import ImgLoesungFive from "@/assets/ImgLoesung5.png";
+import ImgLoesungSix from "@/assets/12.png";
 
 function LoesungenList() {
   return (
@@ -18,18 +19,18 @@ function LoesungenList() {
         eines Landes oder weltweit, ob...
       </LoesungsItem>
 
-      <LoesungsItem image={ImgLoesungThree} header="Lösung 3">
+      <LoesungsItem image={ImgLoesungFour} header="Lösung 3">
         Egal von welchem Standort, unabhängig von der Teamgröße, ob innerhalb
         eines Landes oder weltweit, ob...
       </LoesungsItem>
 
-      <LoesungsItem image={ImgLoesungFour} header="Lösung 4">
+      <LoesungsItem image={ImgLoesungThree} header="Lösung 4">
         Egal von welchem Standort, unabhängig von der Teamgröße, ob innerhalb
         eines Landes oder weltweit, ob...
       </LoesungsItem>
 
       <LoesungsItem
-        image={ImgLoesungFive}
+        image={ImgLoesungSix}
         header="Lösung 5"
         className="hidden lg:flex"
       >

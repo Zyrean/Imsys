@@ -10,17 +10,13 @@ function ContactForm({ style, inputBgColor }) {
               name="name"
               type="text"
               placeholder="Name"
-              className={
-                `place border-b-[1px] border-black pb-2 ` + inputBgColor
-              }
+              className={`place border-b-[1px] border-black pb-2 ${inputBgColor}`}
             />
             <input
               name="e-mail"
               type="email"
               placeholder="E-Mail"
-              className={
-                `place border-b-[1px] border-black pb-2 ` + inputBgColor
-              }
+              className={`place border-b-[1px] border-black pb-2 ${inputBgColor}`}
             />
           </div>
 
@@ -29,17 +25,13 @@ function ContactForm({ style, inputBgColor }) {
               name="firma"
               type="text"
               placeholder="Firma"
-              className={
-                `place border-b-[1px] border-black pb-2 ` + inputBgColor
-              }
+              className={`place border-b-[1px] border-black pb-2 ${inputBgColor}`}
             />
             <input
               name="telefon"
               type="number"
               placeholder="Telefon"
-              className={
-                `place border-b-[1px] border-black pb-2 ` + inputBgColor
-              }
+              className={`place border-b-[1px] border-black pb-2 ${inputBgColor}`}
             />
           </div>
         </div>
@@ -47,10 +39,7 @@ function ContactForm({ style, inputBgColor }) {
         <textarea
           name="contactFormText"
           rows={5}
-          className={
-            `mt-2 w-full rounded-sm border-[1px] border-black p-2 ` +
-            inputBgColor
-          }
+          className={`mt-2 w-full rounded-sm border-[1px] border-black p-2 ${inputBgColor}`}
           placeholder="Ihre Nachricht..."
         ></textarea>
 
@@ -64,35 +53,32 @@ function ContactForm({ style, inputBgColor }) {
           name="name"
           type="text"
           placeholder="Name"
-          className={`place border-b-[1px] border-black pb-2 ` + inputBgColor}
+          className={`place border-b-[1px] border-black pb-2 ${inputBgColor}`}
         />
         <input
           name="e-mail"
           type="email"
           placeholder="E-Mail"
-          className={`place border-b-[1px] border-black pb-2 ` + inputBgColor}
+          className={`place border-b-[1px] border-black pb-2 ${inputBgColor}`}
         />
 
         <input
           name="firma"
           type="text"
           placeholder="Firma"
-          className={`place border-b-[1px] border-black pb-2 ` + inputBgColor}
+          className={`place border-b-[1px] border-black pb-2 ${inputBgColor}`}
         />
         <input
           name="telefon"
           type="number"
           placeholder="Telefon"
-          className={`place border-b-[1px] border-black pb-2 ` + inputBgColor}
+          className={`place border-b-[1px] border-black pb-2 ${inputBgColor}`}
         />
 
         <textarea
           name="contactFormText"
           rows={5}
-          className={
-            `place mt-2 rounded-sm border-[1px] border-black p-2 ` +
-            inputBgColor
-          }
+          className={`place mt-2 rounded-sm border-[1px] border-black p-2 ${inputBgColor}`}
           placeholder="Ihre Nachricht..."
         ></textarea>
 

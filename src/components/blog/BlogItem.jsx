@@ -4,7 +4,7 @@ import Button from "../ui/Button";
 function BlogItem({ image, interests, title, className }) {
   return (
     <li
-      className={`${className} flex flex-col gap-2 rounded-md border-[1px] border-gray-300`}
+      className={`${className} flex flex-col gap-3 rounded-md border-[1px] border-gray-300`}
     >
       <Image
         src={image}
@@ -12,7 +12,7 @@ function BlogItem({ image, interests, title, className }) {
         className="rounded-tl-md rounded-tr-md lg:w-full"
       />
 
-      <div className="mt-1 flex flex-col gap-2 px-2 sm:px-4">
+      <div className="mt-1 flex flex-col gap-2 px-4">
         <h5 className="text-sm font-semibold uppercase text-orange">
           {interests}
         </h5>
@@ -21,7 +21,7 @@ function BlogItem({ image, interests, title, className }) {
           In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
           wohl am meisten unterschätzte Bereich – Service und Schulung.
         </p>
-        <Button style="read article" className="mb-2 mt-6 px-2">
+        <Button style="read article" className="mb-2 mt-2">
           Artikel lesen
         </Button>
       </div>

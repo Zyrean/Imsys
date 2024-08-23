@@ -30,7 +30,8 @@ function WebsiteInformation({
           >
             {h1}
           </h1>
-          <p className="leading-relaxed drop-shadow-2xl">{children}</p>
+          
+          <div className="leading-relaxed drop-shadow-2xl">{children}</div>
 
           <Button style={buttonStyle} to={buttonHref}>
             {buttonText}

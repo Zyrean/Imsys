@@ -100,9 +100,9 @@ function Button({
           >
             <path
               d="M6 12H18M18 12L13 7M18 12L13 17"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </button>

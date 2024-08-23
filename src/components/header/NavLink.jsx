@@ -23,10 +23,8 @@ function NavLink({
 
   return (
     <li className={`group flex flex-row hover:cursor-pointer ${className}`}>
-      {/* className="hover-shadow-bottom py-6 hover:text-orange" */}
       <Link
         href={to}
-        // className="hover-shadow-bottom flex items-center bg-red-400 py-6 hover:text-orange"
         className="flex items-center"
       >
         <>

@@ -1,17 +1,35 @@
 "use client";
 
 import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
 
 import NavBar from "./NavBar";
 import Button from "../ui/Button";
 import BurgerMenu from "@/assets/menu-svgrepo-com.svg";
 import NavLink from "./NavLink";
-import { useState } from "react";
 import MenuPhone from "./MenuPhone";
 import OverlayBackground from "../ui/OverlayBackground";
 
 function MainHeader() {
   const [showMenu, setShowMenu] = useState(false);
+
+  let menuRef = useRef();
+
+  useEffect(() => {
+    let handler = (e) => {
+      // if (!menuRef.current.contains(e.target)) {
+      //   setShowMenu(false);
+      //   console.log(menuRef.current);
+      // }
+      console.log(menuRef.current);
+    };
+
+    document.addEventListener("mousedown", handler);
+
+    return () => {
+      document.removeEventListener("mousedown", handler);
+    };
+  });
 
   function toggleMenu() {
     setShowMenu(!showMenu);
@@ -20,7 +38,7 @@ function MainHeader() {
   return (
     <>
       {showMenu && (
-        <OverlayBackground className="w-[390px] sm:w-[544px]">
+        <OverlayBackground className="w-[390px] sm:w-[544px]" ref={menuRef}>
           <MenuPhone onToggleMenu={toggleMenu} />
         </OverlayBackground>
       )}
