@@ -14,10 +14,10 @@ function CustomerPost({ display = "flex" }) {
         Website erhöht
       </h3>
       <p className="text-xs leading-relaxed text-gray-600">
-        In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-        wohl am meisten unterschätzte Bereich – Service und Schulung.
-        Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in Ihrem
-        Interesse.
+        Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt Ihnen
+        einen ersten Eindruck wie kreativ und flexibel VR AR MR -Anwendungen
+        sind und in der Folge echte Vorteile bieten. Sie können diese Vorteile
+        für Ihre digitale Arbeitsumgebung nutzen.
       </p>
 
       <div className="flex items-center gap-4">

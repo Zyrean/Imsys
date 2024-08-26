@@ -16,11 +16,10 @@ function UnserUxLab() {
 
         <div className="flex flex-col gap-10 lg:mb-8">
           <InformationBlock title="Test Vorbereitung">
-            Willkommen in unserem UX Lab – Ihrem Testlabor für beeindruckende
-            User Experience. Hier eröffnen sich Ihnen Türen in die virtuelle
-            Welt dank modernster Ausstattung: Erlebnisbrillen für VR, AR und MR,
-            beeindruckende Powerwall- und Cave-Systeme, eindrucksvolle
-            Display-Walls sowie die innovative Green Screen Technologie.
+            Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+            Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+            -Anwendungen sind und in der Folge echte Vorteile bieten. Sie können
+            diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
           </InformationBlock>
           <InformationBlock title="Test Abschluss">
             Testen Sie persönlich Ihre zukünftige Hardware und Software im User

@@ -17,10 +17,10 @@ function Newsletter() {
 
       <div className="flex flex-col gap-10 lg:w-1/2">
         <InformationBlock title="none">
-          In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-          wohl am meisten unterschätzte Bereich – Service und Schulung.
-          Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-          Ihrem Interesse.
+          Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt Ihnen
+          einen ersten Eindruck wie kreativ und flexibel VR AR MR -Anwendungen
+          sind und in der Folge echte Vorteile bieten. Sie können diese Vorteile
+          für Ihre digitale Arbeitsumgebung nutzen.
         </InformationBlock>
 
         <NewsLetterForm inputBgColor="bg-lightBlue/5" />

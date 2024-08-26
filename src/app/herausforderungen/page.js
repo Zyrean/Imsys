@@ -85,10 +85,11 @@ function HerausforderungenPage() {
           headerGap="gap-24"
         >
           <TextBlock header="Dezentral, schnell, agil -mit VR sind Ihre Konstruktionsbesprechungen genau das.">
-            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-            wohl am meisten unterschätzte Bereich – Service und Schulung.
-            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-            Ihrem Interesse.
+            IMSYS ist seit über 20 Jahren eine der führenden XR-Agenturen für
+            Beratung, Planung und Projektierung von digitalen Arbeitsumgebungen.
+            Wir sind spezialisiert auf gut abgestimmte Medienkonzepte,
+            Planungsdienstleistungen, Realisierung und Servicelösungen für
+            Virtual Reality-, Augmented Reality- und Mixed Reality-Umgebungen.
           </TextBlock>
 
           <TextBlock header=" Die Zusammenarbeit von Konstruktionsteams mit VR/AR führt Sie zu:">
@@ -118,10 +119,11 @@ function HerausforderungenPage() {
           headerGap="gap-44"
         >
           <TextBlock header="Schneller Service, schnelle Reaktion, schnelle Verfügbarkeit - Ein neues Servicelebel">
-            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-            wohl am meisten unterschätzte Bereich – Service und Schulung.
-            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-            Ihrem Interesse.
+            IMSYS ist seit über 20 Jahren eine der führenden XR-Agenturen für
+            Beratung, Planung und Projektierung von digitalen Arbeitsumgebungen.
+            Wir sind spezialisiert auf gut abgestimmte Medienkonzepte,
+            Planungsdienstleistungen, Realisierung und Servicelösungen für
+            Virtual Reality-, Augmented Reality- und Mixed Reality-Umgebungen.
           </TextBlock>
 
           <TextBlock header="Der Einsatz von Remote-Service führt im Ergebnis zu">
@@ -154,10 +156,11 @@ function HerausforderungenPage() {
           headerGap="gap-24 sm:gap-44"
         >
           <TextBlock header="Effektiv, abgestimmt, koordiniert -virtuelle Zusammenarbeit in der Produktionsplanung.">
-            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-            wohl am meisten unterschätzte Bereich – Service und Schulung.
-            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-            Ihrem Interesse.
+            IMSYS ist seit über 20 Jahren eine der führenden XR-Agenturen für
+            Beratung, Planung und Projektierung von digitalen Arbeitsumgebungen.
+            Wir sind spezialisiert auf gut abgestimmte Medienkonzepte,
+            Planungsdienstleistungen, Realisierung und Servicelösungen für
+            Virtual Reality-, Augmented Reality- und Mixed Reality-Umgebungen.
           </TextBlock>
 
           <TextBlock header="Die vurtuelle Zusammenarbeit in der Produktionsplanung führt im Ergebnis zu">
@@ -213,17 +216,19 @@ function HerausforderungenPage() {
 
         <div className="flex flex-col gap-10 lg:flex-row">
           <LösungsBlock header="Zur schnellen und einfachen Lösung mit Imsys">
-            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-            wohl am meisten unterschätzte Bereich – Service und Schulung.
-            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-            Ihrem Interesse.
+            IMSYS ist seit über 20 Jahren eine der führenden XR-Agenturen für
+            Beratung, Planung und Projektierung von digitalen Arbeitsumgebungen.
+            Wir sind spezialisiert auf gut abgestimmte Medienkonzepte,
+            Planungsdienstleistungen, Realisierung und Servicelösungen für
+            Virtual Reality-, Augmented Reality- und Mixed Reality-Umgebungen.
           </LösungsBlock>
 
           <LösungsBlock header="Zur schnellen und einfachen Lösung mit Imsys">
-            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-            wohl am meisten unterschätzte Bereich – Service und Schulung.
-            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-            Ihrem Interesse.
+            IMSYS ist seit über 20 Jahren eine der führenden XR-Agenturen für
+            Beratung, Planung und Projektierung von digitalen Arbeitsumgebungen.
+            Wir sind spezialisiert auf gut abgestimmte Medienkonzepte,
+            Planungsdienstleistungen, Realisierung und Servicelösungen für
+            Virtual Reality-, Augmented Reality- und Mixed Reality-Umgebungen.
           </LösungsBlock>
         </div>
       </section>

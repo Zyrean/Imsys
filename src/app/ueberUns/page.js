@@ -24,20 +24,20 @@ function AboutUsPage() {
         buttonHref="/kontakt"
       >
         <p>
-            <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
-            XR-Agenturen für Beratung, Planung und Projektierung von digitalen
-            Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
-            Medienkonzepte, Planungsdienstleistungen, Realisierung und
-            Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
-            Reality-Umgebungen.
+          <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
+          XR-Agenturen für Beratung, Planung und Projektierung von digitalen
+          Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
+          Medienkonzepte, Planungsdienstleistungen, Realisierung und
+          Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
+          Reality-Umgebungen.
         </p>
         <p>
-            <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
-            XR-Agenturen für Beratung, Planung und Projektierung von digitalen
-            Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
-            Medienkonzepte, Planungsdienstleistungen, Realisierung und
-            Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
-            Reality-Umgebungen.
+          <strong>IMSYS</strong> ist seit über 20 Jahren eine der führenden
+          XR-Agenturen für Beratung, Planung und Projektierung von digitalen
+          Arbeitsumgebungen. Wir sind spezialisiert auf gut abgestimmte
+          Medienkonzepte, Planungsdienstleistungen, Realisierung und
+          Servicelösungen für Virtual Reality-, Augmented Reality- und Mixed
+          Reality-Umgebungen.
         </p>
       </WebsiteInformation>
 
@@ -52,36 +52,36 @@ function AboutUsPage() {
 
             <div className="flex flex-col gap-10 px-8 sm:grid sm:grid-cols-2">
               <Qualification num="01" header="Beraten + Planen">
-                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-                der wohl am meisten unterschätzte Bereich – Service und
-                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
-                Fokus, auch in Ihrem Interesse.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
               </Qualification>
               <Qualification num="02" header="Projektierung + Umsetzung">
-                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-                der wohl am meisten unterschätzte Bereich – Service und
-                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
-                Fokus, auch in Ihrem Interesse.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
               </Qualification>
               <Qualification
                 num="03"
                 header="Beraten + Planen"
                 className="lg:hidden"
               >
-                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-                der wohl am meisten unterschätzte Bereich – Service und
-                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
-                Fokus, auch in Ihrem Interesse.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
               </Qualification>
               <Qualification
                 num="04"
                 header="Projektierung + Umsetzung"
                 className="lg:hidden"
               >
-                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-                der wohl am meisten unterschätzte Bereich – Service und
-                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
-                Fokus, auch in Ihrem Interesse.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
               </Qualification>
             </div>
           </div>
@@ -99,16 +99,16 @@ function AboutUsPage() {
           <div className="flex flex-col gap-10 lg:mb-8 lg:w-1/2">
             <div className="flex flex-col gap-10 px-8 sm:grid sm:grid-cols-2">
               <Qualification num="03" header="Beraten + Planen">
-                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-                der wohl am meisten unterschätzte Bereich – Service und
-                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
-                Fokus, auch in Ihrem Interesse.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
               </Qualification>
               <Qualification num="04" header="Projektierung + Umsetzung">
-                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-                der wohl am meisten unterschätzte Bereich – Service und
-                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
-                Fokus, auch in Ihrem Interesse.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
               </Qualification>
             </div>
           </div>
@@ -136,40 +136,40 @@ function AboutUsPage() {
             header="Spontan und individuell"
             h3Width="w-[200px] lg:w-[130px]"
           >
-            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-            wohl am meisten unterschätzte Bereich – Service und Schulung.
-            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-            Ihrem Interesse.
+            Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+            Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+            -Anwendungen sind und in der Folge echte Vorteile bieten. Sie können
+            diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
           </Qualification>
           <Qualification
             num="02"
             header="Über 1200 zufrienden Kunden"
             h3Width="w-[200px] lg:w-[200px]"
           >
-            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-            wohl am meisten unterschätzte Bereich – Service und Schulung.
-            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-            Ihrem Interesse.
+            Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+            Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+            -Anwendungen sind und in der Folge echte Vorteile bieten. Sie können
+            diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
           </Qualification>
           <Qualification
             num="03"
             header="25+ Jahre erfahrung"
             h3Width="w-[100px] lg:w-[120px]"
           >
-            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-            wohl am meisten unterschätzte Bereich – Service und Schulung.
-            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-            Ihrem Interesse.
+            Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+            Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+            -Anwendungen sind und in der Folge echte Vorteile bieten. Sie können
+            diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
           </Qualification>
           <Qualification
             num="04"
             header="Produktiv und Kompetent"
             h3Width="w-[200px] lg:w-[200px]"
           >
-            In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-            wohl am meisten unterschätzte Bereich – Service und Schulung.
-            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-            Ihrem Interesse.
+            Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+            Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+            -Anwendungen sind und in der Folge echte Vorteile bieten. Sie können
+            diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
           </Qualification>
         </div>
       </section>
@@ -189,23 +189,33 @@ function AboutUsPage() {
           <div className="flex flex-col gap-10">
             <div className="flex justify-between gap-14 px-8 leading-relaxed">
               <p>
-                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-                der wohl am meisten unterschätzte Bereich – Service und
-                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
-                Fokus, auch in Ihrem Interesse. Dement­sprechend ist dieser
-                Sektor bei uns immer im Fokus, auch in Ihrem Interesse.
-                Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch
-                in Ihrem Interesse.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
               </p>
 
               <p className="hidden lg:flex">
-                In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das
-                der wohl am meisten unterschätzte Bereich – Service und
-                Schulung. Dement­sprechend ist dieser Sektor bei uns immer im
-                Fokus, auch in Ihrem Interesse. Dement­sprechend ist dieser
-                Sektor bei uns immer im Fokus, auch in Ihrem Interesse.
-                Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch
-                in Ihrem Interesse.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
+                Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+                Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+                -Anwendungen sind und in der Folge echte Vorteile bieten. Sie
+                können diese Vorteile für Ihre digitale Arbeitsumgebung nutzen.
               </p>
             </div>
           </div>
@@ -220,26 +230,31 @@ function AboutUsPage() {
         </div>
 
         <p className="px-8 leading-relaxed">
-          In Ihrem Gesamtkonzept für Ihre digitale Arbeitsumgebung ist das der
-          wohl am meisten unterschätzte Bereich – Service und Schulung.
-          Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-          Ihrem Interesse. Dement­sprechend ist dieser Sektor bei uns immer im
-          Fokus, auch in Ihrem Interesse. Dement­sprechend ist dieser Sektor bei
-          uns immer im Fokus, auch in Ihrem Interesse. In Ihrem Gesamtkonzept
-          für Ihre digitale Arbeitsumgebung ist das der wohl am meisten
-          unterschätzte Bereich – Service und Schulung. Dement­sprechend ist
-          dieser Sektor bei uns immer im Fokus, auch in Ihrem Interesse.
-          Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-          Ihrem Interesse.{" "}
+          Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt Ihnen
+          einen ersten Eindruck wie kreativ und flexibel VR AR MR -Anwendungen
+          sind und in der Folge echte Vorteile bieten. Sie können diese Vorteile
+          für Ihre digitale Arbeitsumgebung nutzen. Diese kleine und
+          abwechslungsreiche Auswahl an Aktivitäten gibt Ihnen einen ersten
+          Eindruck wie kreativ und flexibel VR AR MR -Anwendungen sind und in
+          der Folge echte Vorteile bieten. Sie können diese Vorteile für Ihre
+          digitale Arbeitsumgebung nutzen. Diese kleine und abwechslungsreiche
+          Auswahl an Aktivitäten gibt Ihnen einen ersten Eindruck wie kreativ
+          und flexibel VR AR MR -Anwendungen sind und in der Folge echte
+          Vorteile bieten. Sie können diese Vorteile für Ihre digitale
+          Arbeitsumgebung nutzen.
           <span className="hidden lg:flex">
-            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-            Ihrem Interesse. In Ihrem Gesamtkonzept für Ihre digitale
-            Arbeitsumgebung ist das der wohl am meisten unterschätzte Bereich –
-            Service und Schulung. Dement­sprechend ist dieser Sektor bei uns
-            immer im Fokus, auch in Ihrem Interesse. Dement­sprechend ist dieser
-            Sektor bei uns immer im Fokus, auch in Ihrem Interesse.
-            Dement­sprechend ist dieser Sektor bei uns immer im Fokus, auch in
-            Ihrem Interesse.
+            Diese kleine und abwechslungsreiche Auswahl an Aktivitäten gibt
+            Ihnen einen ersten Eindruck wie kreativ und flexibel VR AR MR
+            -Anwendungen sind und in der Folge echte Vorteile bieten. Sie können
+            diese Vorteile für Ihre digitale Arbeitsumgebung nutzen. Diese
+            kleine und abwechslungsreiche Auswahl an Aktivitäten gibt Ihnen
+            einen ersten Eindruck wie kreativ und flexibel VR AR MR -Anwendungen
+            sind und in der Folge echte Vorteile bieten. Sie können diese
+            Vorteile für Ihre digitale Arbeitsumgebung nutzen. Diese kleine und
+            abwechslungsreiche Auswahl an Aktivitäten gibt Ihnen einen ersten
+            Eindruck wie kreativ und flexibel VR AR MR -Anwendungen sind und in
+            der Folge echte Vorteile bieten. Sie können diese Vorteile für Ihre
+            digitale Arbeitsumgebung nutzen.
           </span>
         </p>
 

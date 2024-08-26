@@ -38,8 +38,8 @@ function MainHeader() {
   return (
     <>
       {showMenu && (
-        <OverlayBackground className="w-[390px] sm:w-[544px]" ref={menuRef}>
-          <MenuPhone onToggleMenu={toggleMenu} />
+        <OverlayBackground className="w-[390px] sm:w-[544px]">
+          <MenuPhone onToggleMenu={toggleMenu} ref={menuRef} />
         </OverlayBackground>
       )}
 
