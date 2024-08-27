@@ -13,7 +13,7 @@ function page() {
     <main className="flex flex-col gap-28 pb-14 lg:gap-36">
       <WebsiteInformation
         h1="Lösungen für Sie leicht gemacht"
-        h1Width="sm:w-[280px]"
+        h1Width="w-[280px]"
         h1Color="text-white"
         image={ImgEngeniers}
         buttonText="Zu unserem Blog"

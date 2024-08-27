@@ -1,7 +1,6 @@
 function ButtonNextBack({ className }) {
   return (
-    // remove bg color on hover?
-    <button className="border border-gray-400 p-1">
+    <button className="border border-gray-400 p-1 hover:border-blue">
       <svg
         width="20px"
         height="20px"

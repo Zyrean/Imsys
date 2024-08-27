@@ -18,9 +18,10 @@ function MainHeader() {
     setShowMenu(!showMenu);
   }
 
-  let domNode = useClickOutside(() => {
-    showMenu(false);
-  });
+  // TODO
+  // let domNode = useClickOutside(() => {
+  //   showMenu(false);
+  // });
 
   return (
     <>
