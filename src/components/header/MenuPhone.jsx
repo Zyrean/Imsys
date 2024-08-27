@@ -5,9 +5,12 @@ import NavBar from "./NavBar";
 import Button from "../ui/Button";
 import Close from "@/assets/close.svg";
 
-function MenuPhone({ onToggleMenu }) {
+function MenuPhone({ onToggleMenu, domNode }) {
   return (
-    <div className="absolute z-10 flex w-full flex-col items-center gap-8 rounded-b-md border-b border-blue bg-white px-8 py-6 shadow-2xl">
+    <div
+      ref={domNode}
+      className="absolute z-10 flex w-full flex-col items-center gap-8 rounded-b-md border-b border-blue bg-white px-8 py-6 shadow-2xl"
+    >
       <div className="flex w-full justify-between self-start border-b-[1px] border-blue pb-6">
         <NavLink to="/" arrow={false}>
           <Button onClick={onToggleMenu}>
