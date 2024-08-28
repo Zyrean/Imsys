@@ -8,7 +8,7 @@ import ImgLoesungSix from "@/assets/12.png";
 
 function LoesungenList() {
   return (
-    <ul className="flex flex-col gap-10 px-8 sm:grid sm:grid-cols-2">
+    <ul className="flex flex-col gap-10 px-8 sm:grid sm:grid-cols-2 lg:bg-red-200">
       <LoesungsItem image={ImgLoesungOne} header="Lösung 1">
         Egal von welchem Standort, unabhängig von der Teamgröße, ob innerhalb
         eines Landes oder weltweit, ob...
